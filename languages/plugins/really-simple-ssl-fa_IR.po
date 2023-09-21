@@ -1,0 +1,2908 @@
+# Translation of Plugins - Really Simple SSL - Stable (latest release) in Persian
+# This file is distributed under the same license as the Plugins - Really Simple SSL - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-09-05 10:01:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.7\n"
+"Language: fa\n"
+"Project-Id-Version: Plugins - Really Simple SSL - Stable (latest release)\n"
+
+#: settings/config/config.php:408
+msgid "Restrict creation of administrator roles"
+msgstr "ایجاد نقش های مدیر را محدود کنید"
+
+#: settings/config/config.php:406
+msgid "Many vulnerabilities are exploited by injecting a user with administrator capabilities outside of the native WordPress creation process. Under advanced hardening you can prevent this from happening."
+msgstr "بسیاری از آسیب‌پذیری‌ها با تزریق یک کاربر با قابلیت‌های مدیر خارج از فرآیند ایجاد وردپرس بومی مورد سوء استفاده قرار می‌گیرند. تحت سخت شدن پیشرفته می توانید از این اتفاق جلوگیری کنید."
+
+#: settings/config/config.php:405
+msgid "Unauthorized administrators"
+msgstr "مدیران غیر مجاز"
+
+#: settings/config/config.php:400 settings/config/config.php:401
+msgid "This setting will block attempts to assign administrator roles outside the native user creation process by WordPress. This might include other plugins that create, edit or assign roles to users. If you need to create an administrator in a third-party plugin, temporarily disable this setting while you make the changes."
+msgstr "این تنظیم تلاش‌ها برای اختصاص نقش‌های مدیر خارج از فرآیند ایجاد کاربر بومی توسط وردپرس را مسدود می‌کند. این ممکن است شامل افزونه‌های دیگری باشد که نقش‌هایی را ایجاد، ویرایش یا به کاربران اختصاص می‌دهند. اگر نیاز به ایجاد یک سرپرست در یک افزونه شخص ثالث دارید، در حین انجام تغییرات، این تنظیم را موقتاً غیرفعال کنید."
+
+#: security/wordpress/vulnerabilities.php:1481
+msgid "You have %s low-risk vulnerability"
+msgid_plural "You have %s low-risk vulnerabilities"
+msgstr[0] "شما %s آسیب پذیری کم خطر دارید"
+
+#: security/wordpress/vulnerabilities.php:1478
+msgid "You have %s medium-risk vulnerability"
+msgid_plural "You have %s medium-risk vulnerabilities"
+msgstr[0] "شما %s آسیب پذیری با خطر متوسط دارید"
+
+#: security/wordpress/vulnerabilities.php:1475
+msgid "You have %s high-risk vulnerability"
+msgid_plural "You have %s high-risk vulnerabilities"
+msgstr[0] "شما %s آسیب پذیری پرخطر دارید"
+
+#: security/wordpress/vulnerabilities.php:1472
+msgid "You have %s critical vulnerability"
+msgid_plural "You have %s critical vulnerabilities"
+msgstr[0] "شما %s آسیب پذیری حیاتی دارید"
+
+#: security/wordpress/vulnerabilities.php:271
+msgid "Please take appropriate action."
+msgstr "لطفا اقدام مقتضی انجام دهید."
+
+#: security/notices.php:221
+msgid "Really Simple SSL has a new feature! Introducing Vulnerability Detection, enable it now."
+msgstr "SSL واقعا ساده یک ویژگی جدید دارد! شناسایی آسیب‌پذیری را معرفی می‌کنیم، اکنون آن را فعال کنید."
+
+#: security/wordpress/vulnerabilities.php:229
+msgid "View vulnerabilities"
+msgstr "آسیب پذیری ها را مشاهده کنید"
+
+#: security/wordpress/vulnerabilities.php:224
+msgid "Please check the vulnerabilities overview for more information and take appropriate action."
+msgstr "لطفاً برای اطلاعات بیشتر، نمای کلی آسیب‌پذیری‌ها را بررسی کنید و اقدامات لازم را انجام دهید."
+
+#: security/wordpress/vulnerabilities.php:223
+msgid "%s vulnerability has been detected."
+msgid_plural "%s vulnerabilities have been detected."
+msgstr[0] "%s آسیب پذیری شناسایی شده است."
+
+#: security/wordpress/vulnerabilities.php:215
+msgid "Vulnerabilities detected"
+msgstr "آسیب‌پذیری‌هایی شناسایی شد."
+
+#: security/wordpress/vulnerabilities.php:203
+msgid "No known vulnerabilities detected."
+msgstr "هیچ آسیب پذیری شناخته شده ای شناسایی نشده است."
+
+#: security/wordpress/vulnerabilities.php:195
+msgid "No known vulnerabilities detected"
+msgstr "هیچ آسیب پذیری شناخته شده ای شناسایی نشده است"
+
+#: settings/config/config.php:106
+msgid "Only enable this if you experience mixed content in the admin environment of your WordPress website."
+msgstr "فقط در صورتی که محتوای ترکیبی را در محیط مدیریت وب سایت وردپرس خود تجربه کنید، این را فعال کنید."
+
+#: settings/config/config.php:92
+msgid "Only enable if the default mixed content fixer does not fix your front-end mixed content."
+msgstr "فقط در صورتی فعال شود که ثابت‌کننده محتوای ترکیبی پیش‌فرض محتوای ترکیبی جلویی شما را اصلاح نکند."
+
+#: settings/config/menu.php:101
+msgid "Improve Security with %sReally Simple SSL Pro%s"
+msgstr "بهبود امنیت با %s واقعا ساده SSL پرو%s"
+
+#: settings/config/menu.php:100
+msgid "You can choose to automate the most common actions for a vulnerability. Each action is set to a minimum risk level, similar to the notifications. Please read the instructions to learn more about the process."
+msgstr "می‌توانید متداول‌ترین اقدامات برای آسیب‌پذیری را خودکار کنید. هر اقدامی مشابه اعلان‌ها روی حداقل سطح ریسک تنظیم شده است. لطفا دستورالعمل ها را بخوانید تا در مورد فرآیند بیشتر بدانید."
+
+#: settings/config/menu.php:99
+msgid "Measures"
+msgstr "معیارهای"
+
+#: settings/config/menu.php:93
+msgid "This is the vulnerability overview. Here you will find current known vulnerabilities on your system. You can find more information and helpful, actionable insights for every vulnerability under details."
+msgstr "این نمای کلی آسیب پذیری است. در اینجا شما آسیب پذیری های شناخته شده فعلی را در سیستم خود پیدا خواهید کرد. می‌توانید اطلاعات بیشتر و بینش‌های مفید و کاربردی برای هر آسیب‌پذیری را در زیر جزئیات پیدا کنید."
+
+#: settings/config/menu.php:92
+msgid "Overview"
+msgstr "بررسی اجمالی"
+
+#: settings/config/menu.php:87
+msgid "These notifications are set to the minimum risk level that triggers a notification. For example, the default site-wide notification triggers on high-risk and critical vulnerabilities."
+msgstr "این اعلان‌ها روی حداقل سطح خطری تنظیم می‌شوند که یک اعلان را راه‌اندازی می‌کند. برای مثال، اعلان پیش‌فرض در سراسر سایت، آسیب‌پذیری‌های پرخطر و حیاتی را فعال می‌کند."
+
+#: settings/config/menu.php:81
+msgid "Here you can configure vulnerability detection, notifications and measures. To learn more about the features displayed, please use the instructions linked in the top-right corner."
+msgstr "در اینجا می توانید تشخیص آسیب پذیری، اعلان ها و اقدامات را پیکربندی کنید. برای کسب اطلاعات بیشتر در مورد ویژگی های نمایش داده شده، لطفاً از دستورالعمل های پیوند شده در گوشه سمت راست بالا استفاده کنید."
+
+#: settings/config/config.php:752
+msgid "I have read and understood the risks to intervene with these measures."
+msgstr "من خطرات مداخله با این اقدامات را خوانده و درک کرده ام."
+
+#: settings/config/config.php:690
+msgid "Date"
+msgstr "تاریخ"
+
+#: settings/config/config.php:684 settings/config/config.php:731
+msgid "Risk"
+msgstr "ریسک"
+
+#: settings/config/config.php:677
+msgid "Component"
+msgstr "کامپوننت"
+
+#: settings/config/config.php:665
+msgid "Vulnerabilities Overview"
+msgstr "بررسی اجمالی آسیب پذیری ها"
+
+#: settings/config/config.php:648
+msgid "Test notifications can be used to test email delivery and shows how vulnerabilities will be reported on your WordPress installation."
+msgstr "اعلان های آزمایشی را می توان برای آزمایش تحویل ایمیل استفاده کرد و نشان می دهد که چگونه آسیب پذیری ها در نصب وردپرس شما گزارش می شود."
+
+#: settings/config/config.php:647 settings/config/config.php:650
+#: settings/build/967.60c930b6e473f21beb92.js:1
+#: settings/src/Settings/RiskConfiguration/NotificationTester.js:39
+msgid "Test notifications"
+msgstr "اعلان های تست"
+
+#: settings/config/config.php:627
+msgid "This will send emails about vulnerabilities directly from your server. Make sure you can receive emails by the testing a preview below. If this feature is disabled, please enable notifications under general settings."
+msgstr "با این کار ایمیل هایی در مورد آسیب پذیری ها مستقیماً از سرور شما ارسال می شود. مطمئن شوید که می‌توانید با آزمایش پیش‌نمایش زیر، ایمیل‌ها را دریافت کنید. اگر این ویژگی غیرفعال است، لطفاً اعلان‌ها را در تنظیمات عمومی فعال کنید."
+
+#: settings/config/config.php:626
+msgid "Email"
+msgstr "ایمیل"
+
+#: settings/config/config.php:624
+msgid "Critical (default)"
+msgstr "بحرانی (پیش‌فرض)"
+
+#: settings/config/config.php:621 settings/config/config.php:710
+msgid "Low-risk"
+msgstr "ریسک کم"
+
+#: settings/config/config.php:604
+msgid "Site-wide, admin notification"
+msgstr "در سطح سایت، اطلاع رسانی مدیر"
+
+#: settings/config/config.php:601
+msgid "High-risk (default)"
+msgstr "پرخطر (پیش‌فرض)"
+
+#: settings/config/config.php:599
+msgid "Low-risk "
+msgstr "ریسک کم "
+
+#: settings/config/config.php:582
+msgid "Really Simple SSL dashboard"
+msgstr "داشبورد SSL واقعا ساده"
+
+#: settings/config/config.php:580 settings/config/config.php:602
+#: settings/config/config.php:713
+msgid "Critical"
+msgstr "بحرانی"
+
+#: settings/config/config.php:579 settings/config/config.php:623
+#: settings/config/config.php:712
+msgid "High-risk"
+msgstr "ریسک بالا"
+
+#: settings/config/config.php:578 settings/config/config.php:600
+#: settings/config/config.php:622 settings/config/config.php:711
+msgid "Medium-risk"
+msgstr "ریسک متوسط"
+
+#: settings/config/config.php:577
+msgid "Low-risk (default)"
+msgstr "کم خطر (پیش فرض)"
+
+#: settings/config/config.php:576 settings/config/config.php:598
+#: settings/config/config.php:620 settings/config/config.php:709
+msgid "None"
+msgstr "هیچ"
+
+#: settings/config/config.php:559
+msgid "Feedback in plugin overview"
+msgstr "بازخورد در نمای کلی افزونه"
+
+#: settings/config/config.php:556
+msgid "If there's a vulnerability, you will also get feedback on the themes and plugin overview."
+msgstr "اگر آسیب‌پذیری وجود داشته باشد، بازخوردی درباره قالب ها و نمای کلی افزونه دریافت خواهید کرد."
+
+#: settings/config/config.php:540
+msgid "Really Simple SSL collects information about plugins, themes, and core vulnerabilities from our database powered by WPVulnerability. Anonymized data about these vulnerable components will be sent to Really Simple SSL for statistical analysis to improve open-source contributions. For more information, please read our privacy statement."
+msgstr "Really Simple SSL اطلاعات مربوط به پلاگین ها، قالب ها و آسیب پذیری های اصلی را از پایگاه داده ما با پشتیبانی از WPVulnerability جمع آوری می کند. داده‌های ناشناس درباره این مؤلفه‌های آسیب‌پذیر برای تجزیه و تحلیل آماری برای بهبود مشارکت‌های منبع باز به Really Simple SSL ارسال می‌شود. برای اطلاعات بیشتر، لطفا بیانیه حریم خصوصی ما را بخوانید."
+
+#: settings/config/config.php:539
+msgid "About Vulnerabilities"
+msgstr "درباره آسیب پذیری"
+
+#: settings/config/config.php:532
+msgid "This feature depends on multiple standard background processes. If a process fails or is unavailable on your system, detection might not work. We run frequent tests for this purpose. We will notify you accordingly if there are any issues."
+msgstr "این ویژگی به چندین فرآیند پس زمینه استاندارد بستگی دارد. اگر فرآیندی با شکست مواجه شود یا در سیستم شما در دسترس نباشد، تشخیص ممکن است کار نکند. ما آزمایشات مکرری را برای این منظور انجام می دهیم. در صورت وجود هر گونه مشکل، ما به شما اطلاع خواهیم داد."
+
+#: settings/config/config.php:531
+msgid "Vulnerability detection"
+msgstr "تشخیص آسیب پذیری"
+
+#: security/wordpress/vulnerabilities.php:1458
+msgid "Get more information from the Really Simple SSL dashboard on %s"
+msgstr "اطلاعات بیشتر را از داشبورد Really Simple SSL در %s دریافت کنید"
+
+#: security/wordpress/vulnerabilities.php:1457
+msgid "Based on your settings, Really Simple SSL will take appropriate action, or you will need to solve it manually."
+msgstr "بر اساس تنظیمات شما، Really Simple SSL اقدامات مناسبی را انجام خواهد داد، یا باید آن را به صورت دستی حل کنید."
+
+#: security/wordpress/vulnerabilities.php:1452
+msgid "Multiple %s vulnerabilities have been found."
+msgstr "چندین %s آسیب پذیری پیدا شده است."
+
+#: security/wordpress/vulnerabilities.php:1452
+msgid "A %s vulnerability is found in %s."
+msgstr "%s آسیب پذیری در %s یافت شود."
+
+#: security/wordpress/vulnerabilities.php:1419
+msgid "This is a vulnerability alert from Really Simple SSL for %s. "
+msgstr "این یک هشدار آسیب پذیری از Really Simple SSL برای %s است. "
+
+#: security/wordpress/vulnerabilities.php:1418
+msgid "%s: %s vulnerability found"
+msgid_plural "%s: %s vulnerabilities found"
+msgstr[0] "%s: %s آسیب‌پذیری پیدا شد"
+
+#: security/wordpress/vulnerabilities.php:1417
+msgid "Vulnerability Alert: %s"
+msgstr "هشدار آسیب پذیری : %s"
+
+#: security/wordpress/vulnerabilities.php:1084
+msgid "Vulnerability: %s"
+msgstr "آسیب پذیری: %s"
+
+#: security/wordpress/vulnerabilities.php:618
+#: security/wordpress/vulnerabilities.php:1101
+msgid "Quarantined"
+msgstr "قرنطینه شده"
+
+#: security/wordpress/vulnerabilities.php:546
+msgid "Components will be quarantined if the update process fails."
+msgstr "اگر فرآیند به‌روزرسانی ناموفق باشد، مؤلفه‌ها قرنطینه خواهند شد."
+
+#: security/wordpress/vulnerabilities.php:544
+msgid "Quarantine"
+msgstr "قرنطینه"
+
+#: security/wordpress/vulnerabilities.php:540
+msgid "Will run a frequent update process on vulnerable components."
+msgstr "یک فرآیند به‌روزرسانی مکرر را روی مؤلفه‌های آسیب‌پذیر اجرا می‌کند."
+
+#: security/wordpress/vulnerabilities.php:538
+msgid "Force update"
+msgstr "به روزرسانی اجباری"
+
+#: security/wordpress/vulnerabilities.php:523 settings/config/menu.php:74
+#: settings/config/menu.php:80 settings/build/688.ea69dfea12bc73015951.js:1
+#: settings/src/Dashboard/Vulnerabilities/VulnerabilitiesHeader.js:15
+msgid "Vulnerabilities"
+msgstr "آسیب پذیری ها"
+
+#: security/wordpress/vulnerabilities.php:322
+msgid "Dashboard - Test Notification"
+msgstr "پیشخوان - اعلان تست"
+
+#: security/wordpress/vulnerabilities.php:301
+#: security/wordpress/vulnerabilities.php:323
+msgid "This is a test notification from Really Simple SSL. You can safely dismiss this message."
+msgstr "این یک اعلان آزمایشی از Really Simple SSL است. می توانید با خیال راحت این پیام را رد کنید."
+
+#: security/wordpress/vulnerabilities.php:300
+msgid "Site wide - Test Notification"
+msgstr "کل سایت - اعلان تست"
+
+#: security/hardening.php:16 security/wordpress/vulnerabilities.php:55
+msgid "critical"
+msgstr "بحرانی"
+
+#: security/hardening.php:15 security/wordpress/vulnerabilities.php:54
+msgid "high-risk"
+msgstr "ریسک بالا"
+
+#: security/hardening.php:14 security/wordpress/vulnerabilities.php:53
+msgid "medium-risk"
+msgstr "ریسک متوسط"
+
+#: security/hardening.php:13 security/wordpress/vulnerabilities.php:52
+msgid "low-risk"
+msgstr "ریسک کم"
+
+#: security/cron.php:70
+msgid "Every three hours"
+msgstr "هر سه ساعت"
+
+#: mailer/class-mail.php:72
+msgid "Email could not be sent. No message or subject set."
+msgstr "ایمیل قابل ارسال نیست. پیام یا موضوع تنظیم نشده است."
+
+#: mailer/class-mail.php:29
+msgid "Why did I receive this email?"
+msgstr "چرا این ایمیل را دریافت کردم؟"
+
+#: class-admin.php:2118
+msgid "The 301 redirect with .htaccess to HTTPS is now enabled."
+msgstr "تغییر مسیر 301 .htaccess به HTTPS اکنون فعال است."
+
+#: settings/config/config.php:54
+msgid "Settings update: .htaccess redirect"
+msgstr "به روز رسانی تنظیمات: تغییر مسیر htaccess"
+
+#: onboarding/class-onboarding.php:177
+msgid "Add your email address below."
+msgstr "آدرس ایمیل خود را در زیر اضافه کنید."
+
+#: onboarding/class-onboarding.php:177
+msgid "We use email notification to explain important updates in plugin settings."
+msgstr "ما از اعلان ایمیل برای توضیح به‌روزرسانی‌های مهم در تنظیمات افزونه استفاده می‌کنیم."
+
+#: onboarding/class-onboarding.php:176
+msgid "Get notified!"
+msgstr "با خبر شوید!"
+
+#: class-admin.php:2334
+msgid "Our vulnerability reporting is in beta. Signup for the beta to discover the new features!"
+msgstr "گزارش آسیب‌پذیری ما در نسخه بتا است. برای کشف ویژگی های جدید در نسخه بتا ثبت نام کنید!"
+
+#: settings/config/config.php:452
+msgid "Users trying to enter via /wp-admin or /wp-login.php will be redirected to this URL."
+msgstr "کاربرانی که سعی می کنند از طریق /wp-admin یا /wp-login.php وارد شوند به این URL هدایت می شوند."
+
+#: settings/config/config.php:435
+msgid "Custom login URL"
+msgstr "URL ورود به سیستم سفارشی"
+
+#: settings/config/config.php:434
+msgid "Example: If you want to change your login page from /wp-admin/ to /control/ answer: control"
+msgstr "مثال: اگر می خواهید صفحه ورود خود را از /wp-admin/ به /control/ تغییر دهید answer: control"
+
+#: settings/config/config.php:433
+msgid "Enter a custom login URL. This allows you to log in via this custom URL instead of /wp-admin or /wp-login.php"
+msgstr "URL ورود سفارشی را وارد کنید. این به شما امکان می دهد به جای /wp-admin یا /wp-login.php از طریق این URL سفارشی وارد شوید."
+
+#: settings/config/config.php:422
+msgid "Your login URL has changed to {login_url} to prevent common bot attacks on standard login URLs. Learn more about this feature, common questions and measures to prevent any issues."
+msgstr "URL ورود شما به {login_url} تغییر کرده است تا از حملات متداول ربات به URLهای ورود استاندارد جلوگیری شود. درباره این ویژگی، سوالات متداول و اقدامات برای جلوگیری از هر گونه مشکل بیشتر بدانید."
+
+#: settings/config/config.php:421
+msgid "You have changed your login URL"
+msgstr "شما URL ورود خود را تغییر داده اید"
+
+#: settings/config/config.php:419
+msgid "Enable Custom login URL"
+msgstr "URL ورود سفارشی را فعال کنید"
+
+#: settings/config/config.php:418
+msgid "Allows you to enter a custom login URL."
+msgstr "به شما امکان می دهد یک URL ورود به سیستم سفارشی را وارد کنید."
+
+#: lets-encrypt/class-letsencrypt-handler.php:206
+msgid "Please adjust the CAA records via your DNS provider to allow Let’s Encrypt SSL certificates"
+msgstr "لطفاً سوابق CAA را از طریق ارائه دهنده DNS خود تنظیم کنید تا مجوزهای Let's Encrypt SSL را مجاز کنید"
+
+#: mailer/class-mail.php:24
+msgid "This email is part of the Really Simple SSL Notification System"
+msgstr "این ایمیل بخشی از سیستم اعلان SSL واقعا ساده است"
+
+#: mailer/class-mail.php:27
+msgid "This email was sent to"
+msgstr "این ایمیل به ارسال شد"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1523
+msgid "This is a multisite configuration with subdomains. You should generate a wildcard certificate on the root domain."
+msgstr "این یک پیکربندی چند سایتی با زیر دامنه است. شما باید یک گواهی نامه در دامنه ریشه ایجاد کنید."
+
+#: settings/config/config.php:55
+msgid "The .htaccess redirect has been enabled on your site. If the server configuration is non-standard, this might cause issues. Please check if all pages on your site are functioning properly."
+msgstr "تغییر مسیر .htaccess در سایت شما فعال شده است. اگر پیکربندی سرور غیر استاندارد باشد، ممکن است مشکلاتی ایجاد کند. لطفا بررسی کنید که آیا تمام صفحات سایت شما به درستی کار می کنند یا خیر."
+
+#: settings/config/disable-fields-filter.php:19
+msgid "Enable .htaccess only if you know how to regain access in case of issues."
+msgstr "تنها در صورتی htaccess. را فعال کنید که می دانید در صورت بروز مشکل چگونه می توانید دوباره دسترسی پیدا کنید."
+
+#: settings/config/disable-fields-filter.php:15
+msgid "On Apache you can use a .htaccess redirect, which is usually faster, but may cause issues on some configurations. Read the instructions in the sidebar first."
+msgstr "در آپاچی می‌توانید از تغییر مسیر htaccess. استفاده کنید که معمولاً سریع‌تر است، اما ممکن است در برخی از پیکربندی‌ها مشکلاتی ایجاد کند. ابتدا دستورالعمل های موجود در نوار کناری را بخوانید."
+
+#: settings/config/config.php:379
+msgid "From now on, the debug.log won’t be publicly accessible whenever wp-debugging is enabled. The debug log will be stored in a randomly named folder in /wp-content/. This prevents possible leakage of sensitive debugging information."
+msgstr "از این پس، هر زمان که wp-debugging فعال باشد، debug.log برای عموم قابل دسترسی نخواهد بود. گزارش اشکال زدایی در پوشه ای با نام تصادفی در /wp-content/ ذخیره می شود. این از نشت احتمالی اطلاعات حساس اشکال زدایی جلوگیری می کند."
+
+#: settings/config/config.php:378
+msgid "Settings update: Debug.log file relocated"
+msgstr "به روز رسانی تنظیمات: فایل Debug.log تغییر مکان داد"
+
+#: settings/config/config.php:376
+msgid "A debug.log is publicly accessibile and has a standard location. This will change the location to a randomly named folder in /wp-content/"
+msgstr "یک debug.log برای عموم قابل دسترسی است و دارای یک مکان استاندارد است. این مکان را به پوشه ای با نام تصادفی در /wp-content/ تغییر می دهد."
+
+#: settings/config/config.php:364 settings/config/config.php:365
+msgid "This will permanently change your database prefixes and you can NOT rollback this feature. Please make sure you have a back-up."
+msgstr "این به طور دائم پیشوندهای پایگاه داده شما را تغییر می دهد و نمی توانید این ویژگی را برگردانید. لطفا مطمئن شوید که یک نسخه پشتیبان دارید."
+
+#: settings/config/config.php:361
+msgid "Security through obscurity. Your site is no longer using the default wp_ prefix for database tables. The process has been designed to only complete and replace the tables after all wp_ tables are successfully renamed. In the unlikely event that this does lead to database issues on your site, please navigate to our troubleshooting article."
+msgstr "امنیت از طریق ابهام سایت شما دیگر از پیشوند wp_ پیش فرض برای جداول پایگاه داده استفاده نمی کند. این فرآیند طوری طراحی شده است که تنها پس از تغییر نام همه جداول wp_، جداول را تکمیل و جایگزین کند. در صورت بعید که منجر به مشکلات پایگاه داده در سایت شما شود، لطفاً به مقاله عیب‌یابی ما بروید."
+
+#: settings/config/config.php:360
+msgid "Settings update: Database prefix changed"
+msgstr "به روز رسانی تنظیمات: پیشوند پایگاه داده تغییر کرد"
+
+#: settings/config/config.php:350
+msgid "This will limit or fully disable HTTP requests that are not needed, but could be used with malicious intent."
+msgstr "این درخواست‌های HTTP را که مورد نیاز نیستند، اما می‌توانند با اهداف مخرب مورد استفاده قرار گیرند، محدود یا کاملاً غیرفعال می‌کند."
+
+#: settings/config/config.php:298
+msgid "If the username 'admin' currently exists, you can rename it here. Please note that you can no longer use this username, and should use the new username or an email address"
+msgstr "اگر نام کاربری \"admin\" در حال حاضر وجود دارد، می توانید نام آن را در اینجا تغییر دهید. لطفاً توجه داشته باشید که دیگر نمی توانید از این نام کاربری استفاده کنید و باید از نام کاربری جدید یا آدرس ایمیل استفاده کنید"
+
+#: settings/config/config.php:294
+msgid "As a security precaution, the username ‘admin’ has been changed on %s. From now on, you can login with '%s' or an email address."
+msgstr "به عنوان یک اقدام احتیاطی امنیتی، نام کاربری «admin» در %s تغییر کرده است. از این پس، می توانید با '%s' یا یک آدرس ایمیل وارد شوید."
+
+#: settings/config/config.php:293
+msgid "Settings update: Username 'admin' renamed"
+msgstr "به‌روزرسانی تنظیمات: نام کاربری «admin» تغییر نام داد"
+
+#: settings/config/config.php:291
+msgid "Block the username 'admin'"
+msgstr "مسدود کردن نام کاربری \"admin\""
+
+#: settings/config/config.php:260
+msgid "Prevent login feedback"
+msgstr "جلوگیری از بازخورد ورود"
+
+#: settings/config/config.php:259
+msgid "By default, WordPress shows if a username or email address exists when a login fails. This will change it to generic feedback."
+msgstr "به‌طور پیش‌فرض، وردپرس نشان می‌دهد که نام کاربری یا آدرس ایمیل در صورت عدم موفقیت در ورود وجود دارد یا خیر. این آن را به بازخورد عمومی تغییر می دهد."
+
+#: settings/config/config.php:159
+msgid "Dismiss all notifications"
+msgstr "رد کردن همه اعلان‌ها"
+
+#: settings/config/config.php:143
+msgid "Send test notification by email"
+msgstr "اعلان آزمون را از طریق ایمیل ارسال کنید"
+
+#: settings/config/config.php:116
+msgid "Get notified of important changes, updates and settings. Recommended when using security features."
+msgstr "از تغییرات، به‌روزرسانی‌ها و تنظیمات مهم مطلع شوید. هنگام استفاده از ویژگی های امنیتی توصیه می شود."
+
+#: settings/config/config.php:115
+msgid "Notifications by email"
+msgstr "اطلاعیه ها از طریق ایمیل"
+
+#: settings/config/config.php:51 settings/config/disable-fields-filter.php:19
+msgid "Redirects your site to https with a SEO friendly 301 redirect if it is requested over http."
+msgstr "در صورت درخواست از طریق http، سایت شما را با یک تغییر مسیر 301 دوستدار SEO به https هدایت می کند."
+
+#: settings/config/config.php:46
+msgid "301 .htaccess redirect (read instructions first)"
+msgstr "301 htaccess تغییر مسیر (ابتدا دستورالعمل ها را بخوانید)"
+
+#: settings/config/config.php:40
+msgid "Changing redirect methods should be done with caution. Please make sure you have read our instructions beforehand at the right-hand side."
+msgstr "تغییر روش های تغییر مسیر باید با احتیاط انجام شود. لطفاً مطمئن شوید که دستورالعمل های ما را از قبل در سمت راست خوانده اید."
+
+#: mailer/class-mail.php:26
+msgid "Learn more about our features!"
+msgstr "درباره ویژگی های ما بیشتر بدانید!"
+
+#: mailer/class-mail.php:130
+msgid "An error occurred:"
+msgstr "خطایی رخ داد:"
+
+#: mailer/class-mail.php:128
+msgid "Email could not be sent."
+msgstr "ایمیل قابل ارسال نیست."
+
+#: mailer/class-mail.php:124
+msgid "Email sent! Please check your mail"
+msgstr "ایمیل ارسال شد! لطفا ایمیلتان را چک کنید"
+
+#: mailer/class-mail.php:53
+msgid "Email notifications are only sent for important updates, security notices or when certain features are enabled."
+msgstr "اعلان‌های ایمیل فقط برای به‌روزرسانی‌های مهم، اعلامیه‌های امنیتی یا زمانی که ویژگی‌های خاصی فعال هستند ارسال می‌شوند."
+
+#: mailer/class-mail.php:52
+msgid "About notifications"
+msgstr "درباره اطلاعیه ها"
+
+#: mailer/class-mail.php:25
+msgid "Notification by Really Simple SSL"
+msgstr "اعلان توسط Really Simple SSL"
+
+#: mailer/class-mail.php:49
+msgid "This email is confirmation that any security notices are likely to reach your inbox."
+msgstr "این ایمیل تأییدی است بر این که هرگونه اعلان امنیتی احتمالاً به صندوق ورودی شما می رسد."
+
+#: mailer/class-mail.php:48
+msgid "Really Simple SSL - Notification Test"
+msgstr "SSL واقعا ساده - تست اعلان"
+
+#: mailer/class-mail.php:46 mailer/class-mail.php:77
+msgid "Email address not valid"
+msgstr "آدرس ایمیل معتبر نیست"
+
+#: class-admin.php:2321
+msgid "Please check if your REST API is loading correctly. Your site currently is using the slower Ajax fallback method to load the settings."
+msgstr "لطفاً بررسی کنید که آیا REST API شما به درستی بارگیری می شود. سایت شما در حال حاضر از روش کاهش سرعت آژاکس برای بارگیری تنظیمات استفاده می کند."
+
+#: mailer/class-mail.php:31
+msgid "You have enabled a feature on %s. We think it's important to let you know a little bit more about this feature so you can use it without worries."
+msgstr "شما یک ویژگی را در %s فعال کرده اید. ما فکر می کنیم مهم است که کمی بیشتر در مورد این ویژگی به شما اطلاع دهیم تا بتوانید بدون نگرانی از آن استفاده کنید."
+
+#: lets-encrypt/config/notices.php:142
+msgid "You are using the Really Simple SSL Shell Exec add on, but your current version needs to be updated."
+msgstr "شما از افزونه Really Simple SSL Shell Exec استفاده می کنید، اما نسخه فعلی شما باید به روز شود."
+
+#: settings/config/config.php:772
+msgid "(recommended)"
+msgstr "(توصیه شده)"
+
+#: class-admin.php:1981
+msgid "SSL is now activated. Follow the three steps in this article to check if your website is secure."
+msgstr "SSL اکنون فعال شده است. سه مرحله در این مقاله را دنبال کنید تا بررسی کنید که آیا وب سایت شما ایمن است یا خیر."
+
+#: security/wordpress/file-editing.php:28
+msgid "The DISALLOW_FILE_EDIT constant is defined and set to false. You can remove it from your wp-config.php."
+msgstr "ثابت DISALLOW_FILE_EDIT تعریف شده و روی false تنظیم شده است. می توانید آن را از wp-config.php خود حذف کنید."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:111
+msgid "Login credentials incorrect. Please check your login credentials for cPanel."
+msgstr "اعتبار ورود نادرست است. لطفا اعتبار ورود خود را برای سی پنل بررسی کنید."
+
+#: lets-encrypt/class-letsencrypt-handler.php:792
+msgid "Failed retrieving account."
+msgstr "بازیابی حساب ناموفق بود."
+
+#: security/notices.php:176
+msgid "Rename admin user enabled: Please choose a new username of at least 3 characters, which is not in use yet."
+msgstr "تغییر نام کاربر مدیر فعال است: لطفاً یک نام کاربری جدید با حداقل 3 کاراکتر انتخاب کنید که هنوز استفاده نشده است."
+
+#: upgrade/upgrade-to-pro.php:450
+msgid "Could not rename folder!"
+msgstr "پوشه و فایل آزمایشی ایجاد نشد."
+
+#: settings/config/config.php:308
+msgid "Choose new username to replace 'admin'"
+msgstr "نام کاربری جدید را برای جایگزینی \"admin\" انتخاب کنید"
+
+#: settings/config/menu.php:125 settings/config/menu.php:134
+msgid "Recommended Security Headers"
+msgstr "هدرهای امنیتی توصیه شده نصب شده است"
+
+#: lets-encrypt/config/fields.php:111
+msgid "Terms & Conditions."
+msgstr "شرایط و ضوابط"
+
+#: settings/config/config.php:142 settings/build/967.60c930b6e473f21beb92.js:1
+#: settings/src/Settings/Support.js:43
+msgid "Send"
+msgstr "ارسال"
+
+#: class-admin.php:508 settings/build/688.ea69dfea12bc73015951.js:1
+#: settings/build/967.60c930b6e473f21beb92.js:1
+#: settings/src/Dashboard/TaskElement.js:51
+#: settings/src/Dashboard/TaskElement.js:52
+#: settings/src/Settings/MixedContentScan/MixedContentScan.js:79
+msgid "View"
+msgstr "مشاهده"
+
+#: settings/config/config.php:771
+msgid "disabled"
+msgstr "غیرفعال شد"
+
+#: settings/config/config.php:1190
+msgid "Source"
+msgstr "منبع"
+
+#: settings/config/config.php:1185
+msgid "Directive"
+msgstr "دایرکتوری ها"
+
+#: settings/config/config.php:1147
+msgid "Add additional domains which can embed your website, if needed. Comma seperated."
+msgstr "دامنه های اضافی اضافه کنید که در صورت نیاز می توانند وب سایت شما را جاسازی کنند. با کاما جدا شده"
+
+#: settings/config/config.php:1138
+msgid "Allow your domain to be embedded"
+msgstr "اجازه دهید دامنه شما جاسازی شود"
+
+#: settings/config/config.php:1134
+msgid "Disable (Default)"
+msgstr "غیرفعال کردن (پیش‌فرض)"
+
+#: settings/config/config.php:1119
+msgid "The content security policy has many options, so we always recommend starting in ‘learning mode’ to see what files and scripts are loaded."
+msgstr "خط‌مشی امنیت محتوا گزینه‌های زیادی دارد، بنابراین ما همیشه توصیه می‌کنیم در «حالت یادگیری» شروع کنید تا ببینید چه فایل‌ها و اسکریپت‌هایی بارگیری می‌شوند."
+
+#: settings/config/config.php:1118
+msgid "About the Content Security Policy"
+msgstr "افزودن یک خط مشی امنیتی محتوا"
+
+#: settings/config/config.php:1112
+msgid "Serve encrypted and authenticated responses"
+msgstr "پاسخ های رمزگذاری شده و احراز هویت شده را ارائه دهید"
+
+#: settings/config/config.php:1103
+msgid "Enable Permissions Policy"
+msgstr "افزودن یک خط مشی مجوز"
+
+#: settings/config/config.php:1030
+msgid "Options"
+msgstr "گزینه ها ذخیره شدند."
+
+#: settings/config/config.php:1025
+msgid "Feature"
+msgstr "ویژگی"
+
+#: settings/config/config.php:1021
+msgid "They might be misused if you don’t actively tell the browser to disable these features."
+msgstr "اگر فعالانه به مرورگر نگویید این ویژگی ها را غیرفعال کند، ممکن است از آنها سوء استفاده شود."
+
+#: settings/config/config.php:1021
+msgid "Browser features are plentiful, but most are not needed on your website."
+msgstr "ویژگی های مرورگر فراوان است، اما اکثر آنها در وب سایت شما مورد نیاز نیستند."
+
+#: settings/config/config.php:1020
+msgid "About the Permission Policy"
+msgstr "افزودن یک خط مشی مجوز"
+
+#: settings/config/config.php:1014
+msgid "Self (Default)"
+msgstr "خود (پیش‌فرض)"
+
+#: settings/config/config.php:1014 settings/build/967.60c930b6e473f21beb92.js:1
+#: settings/src/Settings/LearningMode/LearningMode.js:202
+#: settings/src/Settings/LearningMode/LearningMode.js:208
+#: settings/src/Settings/PermissionsPolicy.js:126
+msgid "Disable"
+msgstr "غیر فعال کردن"
+
+#: settings/config/config.php:1014 settings/build/967.60c930b6e473f21beb92.js:1
+#: settings/src/Settings/LearningMode/ChangeStatus.js:7
+msgid "Allow"
+msgstr "اجازه"
+
+#: settings/config/config.php:999 settings/build/187.85766b52ba67b360ae7e.js:1
+#: settings/build/967.60c930b6e473f21beb92.js:1 settings/src/Modal/Modal.js:66
+#: settings/src/Settings/MixedContentScan/MixedContentScan.js:97
+msgid "Fix"
+msgstr "ثابت"
+
+#: settings/config/config.php:986 settings/config/config.php:1180
+msgid "Location"
+msgstr "اطلاعیه"
+
+#: settings/config/config.php:737 settings/config/config.php:980
+msgid "Description"
+msgstr "شرح"
+
+#: settings/config/config.php:974
+msgid "Type"
+msgstr "تایپ کنید"
+
+#: settings/config/config.php:970
+msgid "The extensive mixed content scan will list all current and future issues and provide a fix, or instructions to fix manually."
+msgstr "اسکن گسترده محتوای مختلط، تمام مشکلات فعلی و آینده را فهرست می‌کند و راه‌حل یا دستورالعمل‌هایی برای رفع دستی ارائه می‌دهد."
+
+#: settings/config/config.php:969
+msgid "About the Mixed Content Scan"
+msgstr "محتوای ترکیبی"
+
+#: settings/config/config.php:965
+msgid "Mixed content scan"
+msgstr "محتوای ترکیبی"
+
+#: settings/config/config.php:956
+msgid "Cross Origin Embedder Policy"
+msgstr "خط‌مشی Cross Origin Embedder"
+
+#: settings/config/config.php:941
+msgid "Cross Origin Resource Policy"
+msgstr "خط مشی منابع متقابل"
+
+#: settings/config/config.php:926
+msgid "Cross Origin Opener Policy"
+msgstr "خط مشی بازکننده Cross Origin"
+
+#: settings/config/config.php:923
+msgid "One of the most powerful features, and therefore the most complex are the Cross-Origin headers that can isolate your website so any data leaks are minimized."
+msgstr "یکی از قوی‌ترین ویژگی‌ها و در نتیجه پیچیده‌ترین آنها هدرهای Cross-Origin هستند که می‌توانند وب‌سایت شما را ایزوله کنند تا هرگونه نشت داده به حداقل برسد."
+
+#: settings/config/config.php:922
+msgid "About Cross Origin Policies"
+msgstr "درباره سیاست‌های مبدا متقابل"
+
+#: settings/config/config.php:898
+msgid "Choose the max-age for HSTS"
+msgstr "حداکثر سن را برای HSTS انتخاب کنید"
+
+#: settings/config/config.php:896
+msgid "Two years (required for preload)"
+msgstr "دو سال (برای پیش بارگذاری لازم است)"
+
+#: settings/config/config.php:895
+msgid "One year"
+msgstr "یک سال"
+
+#: settings/config/config.php:894
+msgid "One day (for testing only)"
+msgstr "یک روز (فقط برای آزمایش)"
+
+#: settings/config/config.php:878
+msgid "Include subdomains"
+msgstr "دامنه نام مستعار را نیز شامل شود؟"
+
+#: settings/config/config.php:856
+msgid "After enabling this feature, you can submit your site to %shstspreload.org%s"
+msgstr "پس از فعال کردن این ویژگی، می توانید سایت خود را به %shstspreload.org%s ارسال کنید"
+
+#: settings/config/config.php:855
+msgid "Include preload"
+msgstr "شامل پیش بارگذاری"
+
+#: settings/config/config.php:840
+msgid "Leveraging your SSL certificate with HSTS is a staple for every website. Force your website over SSL, mitigating risks of malicious counterfeit websites in your name."
+msgstr "استفاده از گواهینامه SSL با HSTS یک عنصر اصلی برای هر وب سایت است. وب سایت خود را بر SSL تحمیل کنید تا خطرات وب سایت های تقلبی مخرب به نام شما کاهش یابد."
+
+#: settings/config/config.php:839
+msgid "About HTTP Strict Transport Security"
+msgstr "بهبود امنیت: فعال کردن HTTP Strict Transport Security (HSTS)"
+
+#: settings/config/config.php:824
+msgid "Referrer Policy"
+msgstr "خط مشی ارجاع دهنده"
+
+#: settings/config/config.php:815
+msgid "recommended"
+msgstr "توصیه شده"
+
+#: settings/config/config.php:804
+msgid "X-Frame options"
+msgstr "گزینه های X-Frame"
+
+#: settings/config/config.php:800 settings/config/config.php:814
+#: settings/config/config.php:914 settings/config/config.php:936
+#: settings/config/config.php:951
+msgid "Off"
+msgstr "خاموش"
+
+#: settings/config/config.php:790
+msgid "X-Content-Type options"
+msgstr "گزینه های X-Content-Type"
+
+#: settings/config/config.php:782
+msgid "These security headers are the fundamental security measures to protect your website visitors while visiting your website."
+msgstr "این هدرهای امنیتی اقدامات امنیتی اساسی برای محافظت از بازدیدکنندگان وب سایت شما در هنگام بازدید از وب سایت شما هستند."
+
+#: settings/config/config.php:781
+msgid "About Recommended Security Headers"
+msgstr "هدرهای امنیتی توصیه شده نصب شده است"
+
+#: settings/config/config.php:769
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: settings/config/config.php:519
+msgid "Delete"
+msgstr "حذف"
+
+#: settings/config/config.php:514 settings/config/config.php:696
+#: settings/config/config.php:725 settings/config/config.php:1195
+msgid "Action"
+msgstr "عمل"
+
+#: settings/config/config.php:509
+msgid "Count"
+msgstr "شمردن"
+
+#: settings/config/config.php:504
+msgid "Login status"
+msgstr "وضعیت ورود"
+
+#: settings/config/config.php:499
+msgid "Method"
+msgstr "روش"
+
+#: settings/config/config.php:391
+msgid "Disable application passwords"
+msgstr "رمز عبور دایرکت ادمین"
+
+#: settings/config/config.php:382
+msgid "Change debug.log file location"
+msgstr "تغییر مکان فایل debug.log"
+
+#: settings/config/config.php:367
+msgid "Rename and randomize your database prefix"
+msgstr "پیشوند پایگاه داده خود را تغییر نام داده و تصادفی کنید"
+
+#: settings/config/config.php:351
+msgid "Disable HTTP methods"
+msgstr "روش های HTTP را غیرفعال کنید"
+
+#: settings/config/config.php:341
+msgid "Block user registrations when login and display name are the same"
+msgstr "وقتی نام کاربری و نام نمایشی یکسان است، ثبت نام کاربران را مسدود کنید"
+
+#: settings/config/config.php:332
+msgid "Disable XML-RPC"
+msgstr "XML-RPC را غیرفعال کنید"
+
+#: settings/config/config.php:280
+msgid "Disable user enumeration"
+msgstr "غیرفعال کردن شمارش کاربران"
+
+#: settings/config/config.php:270
+msgid "Disable directory browsing"
+msgstr "غیرفعال کردن مرور دایرکتوری"
+
+#: settings/config/config.php:249
+msgid "Hide your WordPress version"
+msgstr "نسخه وردپرس خود را مخفی کنید"
+
+#: settings/config/config.php:239
+msgid "Prevent code execution in the public 'Uploads' folder"
+msgstr "از اجرای کد در پوشه عمومی «آپلودها» جلوگیری کنید"
+
+#: settings/config/config.php:229
+msgid "Disable the built-in file editors"
+msgstr "ویرایشگرهای فایل داخلی را غیرفعال کنید"
+
+#: settings/config/config.php:220
+msgid "Hardening features limit the possibility of potential weaknesses and vulnerabilities which can be misused."
+msgstr "ویژگی‌های سخت‌سازی احتمال ضعف‌ها و آسیب‌پذیری‌های بالقوه را که می‌توان از آنها سوء استفاده کرد، محدود می‌کند."
+
+#: settings/config/config.php:219
+msgid "About Hardening"
+msgstr "درباره سخت شدن"
+
+#: settings/config/config.php:213
+msgid "Disable \"anyone can register\""
+msgstr "غیرفعال کردن \"همه می توانند ثبت نام کنند\""
+
+#: settings/config/config.php:204
+msgid "Premium support"
+msgstr "پشتیبانی پریمیوم"
+
+#: settings/config/config.php:179
+msgid "Delete all data on plugin deletion"
+msgstr "تمام داده های حذف افزونه را حذف کنید"
+
+#: settings/config/config.php:170
+msgid "System status"
+msgstr "وضعیت سیستم"
+
+#: settings/config/config.php:105
+msgid "Mixed content fixer - back-end"
+msgstr "ثابت کننده محتوای مختلط - back-end"
+
+#: settings/config/config.php:82 settings/config/config.php:85
+msgid "Mixed content fixer - init hook"
+msgstr "ثابت کننده محتوای مختلط - init hook"
+
+#: class-admin.php:2117 class-admin.php:2123
+msgid "301 .htaccess redirect"
+msgstr "301 .htaccess تغییر مسیر"
+
+#: settings/config/config.php:45
+msgid "301 PHP redirect"
+msgstr "301 PHP تغییر مسیر"
+
+#: settings/config/config.php:44
+msgid "No redirect"
+msgstr "بدون تغییر مسیر"
+
+#: settings/config/config.php:41 settings/config/config.php:50
+#: settings/config/disable-fields-filter.php:18
+msgid "Redirect method"
+msgstr "تغییر مسیر حلقه ها"
+
+#: settings/config/menu.php:253
+msgid "DNS verification"
+msgstr "تأیید DNS"
+
+#: settings/config/menu.php:238
+msgid "General Settings"
+msgstr "تنظیمات عمومی"
+
+#: settings/config/menu.php:209
+msgid "Get Cross Origin Policy Headers with %sReally Simple SSL Pro%s"
+msgstr "سرصفحه های خط مشی مبدأ متقاطع را با %sReally Simple SSL Pro%s"
+
+#: settings/config/menu.php:199
+msgid "Get Source Directives with %sReally Simple SSL Pro%s"
+msgstr "دریافت دستورالعمل های منبع با %sReally Simple SSL Pro%s"
+
+#: settings/config/menu.php:189
+msgid "Get Frame Ancestors with %sReally Simple SSL Pro%s"
+msgstr "اجداد قاب را با %sReally Simple SSL Pro%s"
+
+#: settings/config/menu.php:180
+msgid "Get Upgrade Insecure Requests with %sReally Simple SSL Pro%s"
+msgstr "درخواست‌های ناامن ارتقا را دریافت کنید %sReally Simple SSL Pro%s"
+
+#: settings/config/menu.php:162
+msgid "Get the Permissions Policy with %sReally Simple SSL Pro%s"
+msgstr "سیاست مجوزها را با %sReally Simple SSL Pro%s"
+
+#: settings/config/config.php:1015
+msgid "Permissions Policy"
+msgstr "افزودن یک خط مشی مجوز"
+
+#: settings/config/menu.php:148
+msgid "Get HTTP Strict Transport Security with %sReally Simple SSL Pro%s"
+msgstr "امنیت حمل و نقل سخت HTTP را با %sSSL Pro%s واقعا ساده دریافت کنید"
+
+#: settings/config/config.php:833 settings/config/menu.php:150
+msgid "HTTP Strict Transport Security"
+msgstr "بهبود امنیت: فعال کردن HTTP Strict Transport Security (HSTS)"
+
+#: settings/config/menu.php:132
+msgid "Get Recommended Security Headers with %sReally Simple SSL Pro%s"
+msgstr "دریافت سرصفحه های امنیتی توصیه شده با %sReally Simple SSL Pro%s"
+
+#: settings/config/menu.php:111 settings/config/menu.php:119
+msgid "Get the Mixed Content Scan with %sReally Simple SSL Pro%s"
+msgstr "اسکن محتوای ترکیبی را دریافت کنید%sReally Simple SSL Pro%s"
+
+#: settings/config/menu.php:107 settings/config/menu.php:115
+msgid "Mixed Content Scan"
+msgstr "محتوای ترکیبی"
+
+#: settings/config/menu.php:68
+msgid "Get XML-RPC with %sReally Simple SSL Pro%s"
+msgstr "دریافت XML-RPC با %sReally Simple SSL Pro%s"
+
+#: settings/config/config.php:488 settings/config/menu.php:67
+msgid "XML-RPC"
+msgstr "XML-RPC"
+
+#: settings/config/menu.php:60
+msgid "Get Advanced Hardening with %sReally Simple SSL Pro%s"
+msgstr "سخت شدن پیشرفته را با %sReally Simple SSL Pro%s"
+
+#: settings/config/menu.php:59
+msgid "Advanced Hardening"
+msgstr "سخت شدن پیشرفته"
+
+#: settings/config/menu.php:46 settings/config/menu.php:52
+#: settings/build/688.ea69dfea12bc73015951.js:1
+#: settings/src/Dashboard/Vulnerabilities/VulnerabilitiesHeader.js:15
+msgid "Hardening"
+msgstr "هشدار"
+
+#: settings/config/menu.php:40
+msgid "Debugging with Really Simple SSL"
+msgstr "SSL واقعا ساده"
+
+#: settings/config/menu.php:37
+msgid "Get Premium Support with %sReally Simple SSL Pro%s"
+msgstr "با %s واقعا ساده SSL Pro%s پشتیبانی ممتاز دریافت کنید"
+
+#: settings/config/menu.php:35
+msgid "The following information is attached when you send this form: license key, scan results, your domain, .htaccess file, debug log and a list of active plugins."
+msgstr "اطلاعات زیر هنگام ارسال این فرم پیوست می شود: کلید مجوز، نتایج اسکن، دامنه شما، فایل htaccess.، گزارش اشکال زدایی و لیستی از افزونه های فعال."
+
+#: settings/config/menu.php:12 settings/build/967.60c930b6e473f21beb92.js:1
+#: settings/src/Settings/RiskConfiguration/VulnerabilitiesIntro.js:82
+msgid "Dashboard"
+msgstr "به داشبورد بروید"
+
+#: security/wordpress/user-enumeration.php:10
+msgid "forbidden - number in author name not allowed = %s"
+msgstr "ممنوع - شماره در نام نویسنده مجاز نیست = %s"
+
+#: security/wordpress/rename-admin-user.php:15
+msgid "Username 'admin' has been changed to %s"
+msgstr "نام کاربری \"admin\" به %s تغییر کرده است"
+
+#: security/wordpress/prevent-login-info-leakage.php:9
+msgid "Invalid login details."
+msgstr "مجوز نامعتبر"
+
+#: security/wordpress/block-code-execution-uploads.php:37
+msgid "The code to block code execution in the uploads folder cannot be added automatically on nginx. Add the following code to your nginx.conf file:"
+msgstr "کد مسدود کردن اجرای کد در پوشه آپلود را نمی توان به طور خودکار در nginx اضافه کرد. کد زیر را به فایل nginx.conf خود اضافه کنید:"
+
+#: security/wordpress/block-code-execution-uploads.php:24
+msgid "Could not copy code execution test file."
+msgstr "پوشه و فایل آزمایشی ایجاد نشد."
+
+#: security/wordpress/block-code-execution-uploads.php:19
+msgid "Uploads folder not writable."
+msgstr "دایرکتوری چالش قابل نوشتن نیست."
+
+#: security/wordpress/block-code-execution-uploads.php:14
+msgid "Could not find code execution test file."
+msgstr "پوشه و فایل آزمایشی ایجاد نشد."
+
+#: security/sync-settings.php:35
+msgid "Changed debug.log location to:"
+msgstr "مکان debug.log را به:"
+
+#: security/notices.php:281
+msgid "Your WordPress version is visible to others."
+msgstr "نسخه وردپرس شما برای دیگران قابل مشاهده است."
+
+#: security/notices.php:267
+msgid "Anyone can register an account on your site. Consider disabling this option in the WordPress general settings."
+msgstr "هر کسی می تواند یک حساب کاربری در سایت شما ثبت کند. این گزینه را در تنظیمات عمومی وردپرس غیرفعال کنید."
+
+#: security/notices.php:253
+msgid "The built-in file editors are accessible to others."
+msgstr "ویرایشگرهای فایل داخلی برای دیگران قابل دسترسی است."
+
+#: security/notices.php:207
+msgid "Your database prefix is set to the default 'wp_'."
+msgstr "پیشوند پایگاه داده شما روی \"wp_\" پیش فرض تنظیم شده است."
+
+#: security/notices.php:202
+msgid "Your database prefix is renamed and randomized. Awesome!"
+msgstr "پیشوند پایگاه داده شما تغییر نام داده و تصادفی شده است. عالی!"
+
+#: security/notices.php:191
+msgid "Code execution is allowed in the public 'Uploads' folder."
+msgstr "اجرای کد در پوشه عمومی «آپلودها» مجاز است."
+
+#: security/notices.php:159
+msgid "Your site registered a user with the name 'admin'."
+msgstr "سایت شما کاربری با نام \"admin\" ثبت کرده است."
+
+#: security/notices.php:158 security/notices.php:175
+msgid "Username"
+msgstr "نام کاربری پلسک"
+
+#: security/notices.php:140
+msgid "Prevent user enumeration"
+msgstr "جلوگیری از شمارش کاربران"
+
+#: security/notices.php:138
+msgid "Your site is vulnerable to user enumeration attacks."
+msgstr "سایت شما در برابر حملات شمارش کاربران آسیب پذیر است."
+
+#: security/notices.php:121
+msgid "Your site logs information to a public debugging file."
+msgstr "سایت شما اطلاعات را در یک فایل اشکال زدایی عمومی ثبت می کند."
+
+#: security/notices.php:120 security/sync-settings.php:34
+msgid "Debugging"
+msgstr "اشکال زدایی"
+
+#: security/notices.php:106
+msgid "We have detected administrator roles where the login and display names are the same."
+msgstr "ما نقش‌های سرپرست را شناسایی کرده‌ایم که نام‌های ورود و نمایش یکسان هستند."
+
+#: security/notices.php:92
+msgid "It is currently possible to create an administrator user with the same login and display name."
+msgstr "در حال حاضر امکان ایجاد یک کاربر مدیر با همان نام کاربری و نام نمایشی وجود دارد."
+
+#: security/notices.php:73
+msgid "An option that requires the .htaccess file in the uploads directory is enabled, but the file is not writable."
+msgstr "گزینه ای که به فایل .htaccess در فهرست آپلودها نیاز دارد فعال است، اما فایل قابل نوشتن نیست."
+
+#: security/notices.php:72
+msgid ".htaccess in uploads not writable"
+msgstr "htaccess در آپلودها قابل نوشتن نیست"
+
+#: security/notices.php:54
+msgid "An option that requires the .htaccess file is enabled, but the file does not exist."
+msgstr "اگر تنظیم «توقف ویرایش فایل htaccess.» فعال باشد، نمی‌توانید این تنظیم را تغییر دهید."
+
+#: security/notices.php:53
+msgid ".htaccess does not exist"
+msgstr "تغییر مسیر 301 .htaccess فعال نیست."
+
+#: security/notices.php:46 security/notices.php:54 security/notices.php:73
+msgid "Please add the following lines to your .htaccess, or set it to writable:"
+msgstr "لطفاً خطوط زیر را به .htaccess خود اضافه کنید یا آن را روی قابل نوشتن تنظیم کنید:"
+
+#: security/notices.php:46
+msgid "An option that requires the .htaccess file is enabled, but the file is not writable."
+msgstr "اگر تنظیم «توقف ویرایش فایل htaccess.» فعال باشد، نمی‌توانید این تنظیم را تغییر دهید."
+
+#: security/notices.php:45
+msgid ".htaccess not writable"
+msgstr "htaccess قابل نوشتن نیست"
+
+#: security/notices.php:31
+msgid "Disable application passwords."
+msgstr "رمز عبور دایرکت ادمین"
+
+#: security/integrations.php:69
+msgid "Block user registration when login name equals display name"
+msgstr "هنگامی که نام ورود به سیستم برابر با نام نمایشی است، ثبت نام کاربر را مسدود کنید"
+
+#: security/integrations.php:62
+msgid "Do not allow users with admin username"
+msgstr "به کاربران با نام کاربری admin اجازه ندهید"
+
+#: security/integrations.php:53
+msgid "Disable directory indexing"
+msgstr "غیرفعال کردن نمایه سازی دایرکتوری"
+
+#: security/integrations.php:46
+msgid "Prevent login error leakage"
+msgstr "جلوگیری از نشت خطای ورود"
+
+#: security/integrations.php:38
+msgid "Block code execution in uploads directory"
+msgstr "اجرای کد را در فهرست آپلودها مسدود کنید"
+
+#: security/integrations.php:30
+msgid "User Enumeration"
+msgstr "شمارش کاربر"
+
+#: security/integrations.php:22
+msgid "Hide WP version"
+msgstr "مخفی کردن نسخه وردپرس"
+
+#: security/integrations.php:14
+msgid "File editing"
+msgstr "ویرایش فایل"
+
+#: security/firewall-manager.php:154
+msgid "Please set the wp-content folder to writable:"
+msgstr "لطفاً پوشه wp-content را روی قابل نوشتن تنظیم کنید:"
+
+#: security/firewall-manager.php:154
+msgid "A firewall rule was enabled, but /the wp-content/ folder is not writable."
+msgstr "یک قانون فایروال فعال شده است، اما پوشه /wp-content/ قابل نوشتن نیست."
+
+#: security/firewall-manager.php:148
+msgid "Please set the wp-config.php to writable until the rule has been written."
+msgstr "یا wp-config.php خود را روی قابل نوشتن تنظیم کنید و این صفحه را دوباره بارگیری کنید."
+
+#: security/firewall-manager.php:148
+msgid "A firewall rule was enabled, but the wp-config.php is not writable."
+msgstr "تعریفی از siteurl یا homeurl در wp-config.php شما شناسایی شد، اما فایل قابل نوشتن نیست."
+
+#: security/firewall-manager.php:147 security/firewall-manager.php:153
+msgid "Firewall"
+msgstr "دیواره آتش"
+
+#: rlrsssl-really-simple-ssl.php:172
+msgid "Visit the plugins overview or %srenew your license%s."
+msgstr "از نمای کلی افزونه ها دیدن کنید یا %sمجوز خود را تمدید کنید%s."
+
+#: rlrsssl-really-simple-ssl.php:170
+msgid "Update Really Simple SSL Pro: the plugin needs to be updated to the latest version to be compatible."
+msgstr "Really Simple SSL pro به روز نیست. برای اطمینان از سازگاری، Really Simple SSL pro را به روز کنید."
+
+#: placeholders/class-placeholder.php:269
+msgid "Widget with mixed content"
+msgstr "ویجت با محتوای ترکیبی"
+
+#: placeholders/class-placeholder.php:264
+msgid "Widget area"
+msgstr "ناحیه ابزارک"
+
+#: placeholders/class-placeholder.php:243
+msgid "Mixed content in the postmeta table"
+msgstr "محتوای ترکیبی در جدول پست متا"
+
+#: placeholders/class-placeholder.php:218
+msgid "Mixed content in post: %s"
+msgstr "محتوای مختلط در پست: %s"
+
+#: placeholders/class-placeholder.php:201
+msgid "Mixed content in CSS/JS file from other domain"
+msgstr "محتوای ترکیبی در فایل CSS/JS از دامنه های دیگر"
+
+#: placeholders/class-placeholder.php:190
+#: placeholders/class-placeholder.php:231
+#: placeholders/class-placeholder.php:257
+#: placeholders/class-placeholder.php:282
+msgid "Copyright warning!"
+msgstr "هشدار حق چاپ!"
+
+#: placeholders/class-placeholder.php:189
+#: placeholders/class-placeholder.php:230
+#: placeholders/class-placeholder.php:256
+#: placeholders/class-placeholder.php:281
+msgid "Import and insert file"
+msgstr "وارد کردن و درج فایل"
+
+#: placeholders/class-placeholder.php:176
+msgid "Mixed content in %s"
+msgstr "محتوای ترکیبی در %s"
+
+#: placeholders/class-placeholder.php:164
+#: placeholders/class-placeholder.php:181
+#: placeholders/class-placeholder.php:205
+#: placeholders/class-placeholder.php:222
+#: placeholders/class-placeholder.php:248
+#: placeholders/class-placeholder.php:273 settings/config/config.php:993
+#: settings/build/688.ea69dfea12bc73015951.js:1
+#: settings/build/885.b0c364cdc2feaab6b194.js:1
+#: settings/build/967.60c930b6e473f21beb92.js:1
+#: settings/src/Settings/MixedContentScan/MixedContentScan.js:89
+#: settings/src/Settings/RiskConfiguration/RiskData.js:108
+msgid "Details"
+msgstr "جزئیات"
+
+#: placeholders/class-placeholder.php:160
+msgid "Mixed content in PHP file in %s"
+msgstr "محتوای ترکیبی در فایل PHP در %s"
+
+#: onboarding/class-onboarding.php:327 settings/config/menu.php:268
+#: settings/build/688.ea69dfea12bc73015951.js:1
+#: settings/build/967.60c930b6e473f21beb92.js:1
+#: settings/src/Dashboard/OtherPlugins/OtherPluginsData.js:74
+#: settings/src/Settings/License/License.js:71
+msgid "Activate"
+msgstr "SSL را فعال کنید"
+
+#: onboarding/class-onboarding.php:323
+msgid "Activate our plugin %s"
+msgstr "افزونه %s ما را فعال کنید"
+
+#: onboarding/class-onboarding.php:302
+msgid "%s has been installed!"
+msgstr "%s نصب شده است!"
+
+#: onboarding/class-onboarding.php:285
+msgid "Hardening features are enabled!"
+msgstr "ویژگی های سخت شدن فعال هستند!"
+
+#: onboarding/class-onboarding.php:276
+msgid "Enable recommended hardening features in Really Simple SSL"
+msgstr "ویژگی های سخت شدن توصیه شده را در Really Simple SSL فعال کنید"
+
+#: onboarding/class-onboarding.php:268
+msgid "SSL has been activated"
+msgstr "SSL فعال شده است"
+
+#: settings/settings.php:498
+msgid "Complianz - Consent Management as it should be"
+msgstr "کامپلیانز - مدیریت رضایت همانطور که باید باشد"
+
+#: onboarding/class-onboarding.php:182
+msgid "Now have a look at our new features."
+msgstr "اکنون به ویژگی های جدید ما نگاهی بیندازید."
+
+#: onboarding/class-onboarding.php:181
+msgid "Congratulations!"
+msgstr "تبریک می گویم!"
+
+#: onboarding/class-onboarding.php:181
+msgid "Thanks for updating!"
+msgstr "با تشکر برای به روز رسانی!"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:106
+#: lets-encrypt/integrations/cpanel/cpanel.php:190
+msgid "Your website's ip address is blocked. Please add your domain's ip address to the security policy in CPanel"
+msgstr "آدرس آی پی وب سایت شما مسدود شده است. لطفاً آدرس آی پی دامنه خود را به خط مشی امنیتی در سی پنل اضافه کنید"
+
+#: lets-encrypt/config/notices.php:167 lets-encrypt/config/notices.php:170
+msgid "Renew certificate"
+msgstr "در حال تولید گواهی SSL..."
+
+#: lets-encrypt/config/notices.php:164
+msgid "Renew installation"
+msgstr "نصب و راه اندازی"
+
+#: lets-encrypt/config/fields.php:415
+msgid "Do you want to store these credentials for renewal purposes?"
+msgstr "آیا می خواهید این اعتبارنامه ها را برای اهداف تجدید ذخیره کنید؟"
+
+#: lets-encrypt/config/fields.php:375
+msgid "Plesk username and password"
+msgstr "نام کاربری و رمز عبور پلسک"
+
+#: lets-encrypt/config/fields.php:351
+msgid "Plesk admin URL"
+msgstr "آدرس ادمین پلسک"
+
+#: lets-encrypt/config/fields.php:331
+msgid "CloudWays API key"
+msgstr "کلید API CloudWays"
+
+#: lets-encrypt/config/fields.php:250
+msgid "Direct Admin URL"
+msgstr "میزبان دایرکت ادمین"
+
+#: lets-encrypt/config/fields.php:168
+msgid "Hosting Provider"
+msgstr "ارائه دهنده هاست"
+
+#: lets-encrypt/config/fields.php:145 lets-encrypt/config/fields.php:148
+msgid "Include alias"
+msgstr "دامنه نام مستعار را نیز شامل شود؟"
+
+#: lets-encrypt/config/fields.php:123
+msgid "Disable OCSP stapling"
+msgstr "OCSP Stapling را غیرفعال کنید"
+
+#: lets-encrypt/config/fields.php:110
+msgid "I agree to the Terms & Conditions from Let's Encrypt."
+msgstr "من با شرایط و ضوابط Let's Encrypt موافقم."
+
+#: lets-encrypt/class-le-restapi.php:232
+msgid "Test not found."
+msgstr "تست پیدا نشد"
+
+#: lets-encrypt/class-le-restapi.php:163 lets-encrypt/class-le-restapi.php:224
+msgid "Permission denied."
+msgstr "اجازه رد شد."
+
+#: class-site-health.php:113
+msgid "Read more about security concerns with debug display enabled"
+msgstr "درباره نگرانی‌های امنیتی با فعال کردن نمایش اشکال‌زدایی بیشتر بخوانید"
+
+#: class-site-health.php:107
+msgid "The value, WP_DEBUG_DISPLAY, has either been enabled by WP_DEBUG or added to your configuration file. This will make errors display on the front end of your site."
+msgstr "مقدار WP_DEBUG_DISPLAY یا توسط WP_DEBUG فعال شده است یا به فایل پیکربندی شما اضافه شده است. این باعث می شود که خطاها در قسمت جلویی سایت شما نمایش داده شوند."
+
+#: class-site-health.php:99
+msgid "Your site is set to display errors on your website"
+msgstr "سایت شما برای نمایش خطاها در وب سایت شما تنظیم شده است"
+
+#. translators: Accessibility text.
+#: class-site-health.php:85 class-site-health.php:115
+msgid "(opens in a new tab)"
+msgstr "(در یک برگه جدید باز می شود)"
+
+#: class-site-health.php:83
+msgid "Remove from public location with Really Simple SSL"
+msgstr "Really Simple SSL Pro را بررسی کنید"
+
+#: class-site-health.php:77
+msgid "The value, WP_DEBUG_LOG, has been added to this website’s configuration file. This means any errors on the site will be written to a file which is potentially available to all users."
+msgstr "مقدار WP_DEBUG_LOG به فایل پیکربندی این وب سایت اضافه شده است. این بدان معنی است که هر گونه خطا در سایت در فایلی نوشته می شود که به طور بالقوه در دسترس همه کاربران است."
+
+#: class-site-health.php:69
+msgid "Your site is set to log errors to a potentially public file"
+msgstr "سایت شما تنظیم شده است تا خطاها را در یک فایل بالقوه عمومی ثبت کند"
+
+#: class-multisite.php:146
+msgid "A networkwide SSL activation process has been started, but has not been completed. Please go to the SSL settings page to complete the process."
+msgstr "یک فرآیند فعال سازی SSL در سراسر شبکه آغاز شده است، اما تکمیل نشده است. لطفاً برای تکمیل فرآیند به صفحه تنظیمات SSL بروید."
+
+#: class-multisite.php:145
+msgid "SSL activation in progress"
+msgstr "SSL در سایت شما فعال می شود."
+
+#: class-multisite.php:118
+msgid "SSL is not enabled on your network"
+msgstr "SSL هنوز فعال نشده است"
+
+#: class-admin.php:2778 class-multisite.php:227
+msgid "Improve security - Upgrade"
+msgstr "بهبود امنیت - ارتقاء به حرفه ای"
+
+#: class-admin.php:2304
+msgid "Thanks for updating to Really Simple SSL 6.0! Check out our new features on the settings page."
+msgstr "برای به روز رسانی به SSL واقعا ساده 6.0 متشکریم! ویژگی های جدید ما را در صفحه تنظیمات بررسی کنید."
+
+#: class-admin.php:2217
+msgid "See which recommended security headers are not present on your website."
+msgstr "هدرهای امنیتی توصیه شده در سایت شما شناسایی می شوند."
+
+#: class-admin.php:1901
+msgid "To safely enable SSL on your server configuration, you should add the following line of code to your wp-config.php."
+msgstr "از آنجایی که سایت شما پشت یک loadbalancer قرار دارد و is_ssl() false را برمی گرداند، باید کد زیر را به wp-config.php خود اضافه کنید."
+
+#: class-admin.php:1834 settings/build/688.ea69dfea12bc73015951.js:1
+#: settings/build/772.ffad42a4aac072147b00.js:1
+#: settings/build/829.50b272772b06f5fd2fdf.js:1
+#: settings/src/Dashboard/OtherPlugins/OtherPlugins.js:21
+#: settings/src/Menu/Menu.js:27 settings/src/Settings/SettingsGroup.js:109
+msgid "Upgrade"
+msgstr "پیشرفت"
+
+#. Description of the plugin
+msgid "Lightweight SSL & Hardening Plugin"
+msgstr "SSL سبک وزن و پلاگین سخت شدن"
+
+#: onboarding/class-onboarding.php:253
+msgid "Self-hosted, Privacy-friendly analytics tool"
+msgstr "ابزار تجزیه و تحلیل دوستدار حریم خصوصی با میزبانی خود"
+
+#: upgrade/upgrade-to-pro.php:579
+msgid "Your license key has reached its activation limit."
+msgstr "کلید مجوز شما به حد مجاز فعال سازی خود رسیده است."
+
+#: upgrade/upgrade-to-pro.php:576
+msgid "This appears to be an invalid license key for this plugin."
+msgstr "به نظر می رسد این یک کلید مجوز نامعتبر برای این افزونه است."
+
+#: upgrade/upgrade-to-pro.php:573
+msgid "Your license is not active for this URL."
+msgstr "مجوز شما برای این URL فعال نیست."
+
+#: upgrade/upgrade-to-pro.php:570
+msgid "Invalid license."
+msgstr "مجوز نامعتبر"
+
+#: upgrade/upgrade-to-pro.php:567
+msgid "Missing license."
+msgstr "مجوز گم شده"
+
+#: upgrade/upgrade-to-pro.php:564
+msgid "Your license key has been disabled."
+msgstr "کلید مجوز شما غیرفعال شده است."
+
+#: upgrade/upgrade-to-pro.php:558
+msgid "Your license key expired on %s."
+msgstr "گواهی شما در %s منقضی می شود."
+
+#: upgrade/upgrade-to-pro.php:550 upgrade/upgrade-to-pro.php:582
+msgid "An error occurred, please try again."
+msgstr "خطایی روی داد، لطفاً دوباره امتحان کنید."
+
+#: upgrade/upgrade-to-pro.php:373
+msgid "Check your %slicense%s."
+msgstr "%slicense%s خود را بررسی کنید."
+
+#: upgrade/upgrade-to-pro.php:372
+msgid "Install %sManually%s."
+msgstr "%sدستی%s را نصب کنید."
+
+#: upgrade/upgrade-to-pro.php:372 upgrade/upgrade-to-pro.php:373
+msgid "An Error Occurred:"
+msgstr "خطایی رخ داد:"
+
+#: upgrade/upgrade-to-pro.php:367
+msgid "Visit Dashboard"
+msgstr "به داشبورد بروید"
+
+#: upgrade/upgrade-to-pro.php:356
+msgid "Installing"
+msgstr "نصب"
+
+#: upgrade/upgrade-to-pro.php:331
+msgid "Recommended by Really Simple Plugins"
+msgstr "پلاگین های واقعا ساده"
+
+#: upgrade/upgrade-to-pro.php:233
+msgid "Installation finished"
+msgstr "نصب انجام شد."
+
+#: upgrade/upgrade-to-pro.php:178
+msgid "Really Simple SSL automatically detects your settings and configures your website to run over HTTPS. To keep it lightweight, we kept the options to a minimum. Your website will move to SSL with one click."
+msgstr "SSL Really Simple به طور خودکار تنظیمات شما را شناسایی می کند و وب سایت شما را برای اجرای HTTPS پیکربندی می کند. برای اینکه سبک باشد، گزینه ها را به حداقل رساندیم. وب سایت شما با یک کلیک به SSL منتقل می شود."
+
+#: upgrade/upgrade-to-pro.php:174
+msgid "One click SSL optimization"
+msgstr "بهینه سازی SSL با یک کلیک"
+
+#: upgrade/upgrade-to-pro.php:161
+msgid "Configure your Cookie Notice, Consent Management and Cookie Policy with our Wizard and Cookie Scan. Supports GDPR, DSGVO, TTDSG, LGPD, POPIA, RGPD, CCPA and PIPEDA."
+msgstr "اعلامیه کوکی، مدیریت رضایت و خط مشی کوکی خود را با جادوگر و اسکن کوکی ما پیکربندی کنید. پشتیبانی از GDPR، DSGVO، TTDSG، LGPD، POPIA، RGPD، CCPA و PIPEDA."
+
+#: upgrade/upgrade-to-pro.php:157
+msgid "GDPR/CCPA Privacy Suite"
+msgstr "مجموعه حریم خصوصی GDPR/CCPA"
+
+#: upgrade/upgrade-to-pro.php:148
+msgid "Get detailed insights into visitors' behaviour with Burst Statistics, the privacy-friendly analytics dashboard from Really Simple Plugins."
+msgstr "با Burst Statistics، داشبورد تجزیه و تحلیل دوستانه حریم خصوصی از Really Simple Plugins، اطلاعات دقیقی از رفتار بازدیدکنندگان دریافت کنید."
+
+#: settings/settings.php:490 upgrade/upgrade-to-pro.php:144
+msgid "Self-hosted and privacy-friendly analytics tool."
+msgstr "ابزار تجزیه و تحلیل خود میزبان و دوستدار حریم خصوصی."
+
+#: upgrade/upgrade-to-pro.php:111
+msgid "Failed to activate plugin"
+msgstr "به فعال سازی بروید"
+
+#: upgrade/upgrade-to-pro.php:110
+msgid "Plugin activated"
+msgstr "SSL فعال شد"
+
+#: upgrade/upgrade-to-pro.php:109
+msgid "Activating plugin..."
+msgstr "در حال فعال سازی افزونه..."
+
+#: upgrade/upgrade-to-pro.php:104
+msgid "Failed to install plugin"
+msgstr "به نصب بروید"
+
+#: upgrade/upgrade-to-pro.php:103
+msgid "Plugin installed"
+msgstr "نصب شده است"
+
+#: upgrade/upgrade-to-pro.php:102
+msgid "Installing plugin..."
+msgstr "در حال نصب گواهی SSL..."
+
+#: upgrade/upgrade-to-pro.php:97
+msgid "Failed to gather package information"
+msgstr "اطلاعات بسته جمع آوری نشد"
+
+#: upgrade/upgrade-to-pro.php:96
+msgid "Package information retrieved"
+msgstr "اطلاعات بسته بازیابی شد"
+
+#: upgrade/upgrade-to-pro.php:95
+msgid "Retrieving package information..."
+msgstr "در حال بازیابی رمز تأیید DNS..."
+
+#: upgrade/upgrade-to-pro.php:90
+msgid "License invalid"
+msgstr "مجوز نامعتبر است"
+
+#: upgrade/upgrade-to-pro.php:89
+msgid "License valid"
+msgstr "مجوز معتبر"
+
+#: upgrade/upgrade-to-pro.php:88
+msgid "Validating license..."
+msgstr "در حال تایید مجوز..."
+
+#: upgrade/upgrade-to-pro.php:83
+msgid "Destination folder already exists"
+msgstr "پوشه مقصد از قبل وجود دارد"
+
+#: upgrade/upgrade-to-pro.php:82
+msgid "Able to create destination folder"
+msgstr "قادر به ایجاد پوشه مقصد"
+
+#: upgrade/upgrade-to-pro.php:81
+msgid "Checking if plugin folder exists..."
+msgstr "در حال بررسی مجوزها..."
+
+#: class-admin.php:2235
+msgid "Improve security with Really Simple SSL Pro."
+msgstr "Really Simple SSL Pro را بررسی کنید"
+
+#: class-admin.php:2030
+msgid "Check manually"
+msgstr "دوباره بررسی کن"
+
+#: class-admin.php:2027
+msgid "Could not test certificate"
+msgstr "پوشه و فایل آزمایشی ایجاد نشد."
+
+#: class-admin.php:2028 onboarding/class-onboarding.php:230
+msgid "Automatic certificate detection is not possible on your server."
+msgstr "یک گواهی SSL در سایت شما شناسایی شد."
+
+#: onboarding/class-onboarding.php:230
+msgid "Could not test certificate."
+msgstr "پوشه و فایل آزمایشی ایجاد نشد."
+
+#: lets-encrypt/config/fields.php:441
+msgid "Checking host..."
+msgstr "در حال بررسی مجوزها..."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1132
+msgid "After completing the installation, you can let Really Simple SSL automatically configure your site for SSL by using the 'Activate SSL' button."
+msgstr "پس از اتمام نصب، می‌توانید به Really Simple SSL اجازه دهید تا با استفاده از دکمه «فعال کردن SSL» به‌طور خودکار سایت شما را برای SSL پیکربندی کند."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1117
+msgid "We have not detected any known hosting limitations."
+msgstr "ما هیچ محدودیت شناخته شده میزبانی را شناسایی نکرده ایم."
+
+#: class-admin.php:2015
+msgid "The wp-config.php file is not writable, and needs to be edited. Please set this file to writable."
+msgstr "فایل wp-config.php قابل نوشتن نیست و باید ویرایش شود. لطفاً این فایل را روی قابل نوشتن تنظیم کنید."
+
+#: class-site-health.php:151
+msgid "Your website does not send all recommended security headers."
+msgstr "فایل htaccess. شما حاوی تمام سرصفحه های امنیتی توصیه شده نیست."
+
+#: class-site-health.php:72 class-site-health.php:102 class-site-health.php:133
+#: class-site-health.php:173 security/wordpress/vulnerabilities.php:198
+#: security/wordpress/vulnerabilities.php:218
+msgid "Security"
+msgstr "امنیت"
+
+#: class-admin.php:2223
+msgid "Recommended security headers enabled."
+msgstr "هدرهای امنیتی توصیه شده نصب شده است"
+
+#: lets-encrypt/config/fields.php:126
+msgid "Disable OCSP Stapling"
+msgstr "OCSP Stapling را غیرفعال کنید"
+
+#: lets-encrypt/config/fields.php:124
+msgid "OCSP stapling is configured as enabled by default. You can disable this option if this is not supported by your hosting provider."
+msgstr "منگنه OCSP باید به طور پیش فرض فعال باشد. اگر ارائه دهنده هاست شما از آن پشتیبانی نمی کند، می توانید آن را غیرفعال کنید."
+
+#: lets-encrypt/functions.php:12
+msgid "For more information, please read this %sarticle%s"
+msgstr "برای اطلاعات بیشتر، لطفاً این %sarticle%s را بخوانید"
+
+#: class-admin.php:2288
+msgid "Black Friday sale! Get 40% Off Really Simple SSL Pro"
+msgstr "Really Simple SSL Pro را بررسی کنید"
+
+#: lets-encrypt/config/fields.php:525
+msgid "Checking if Terms & Conditions are accepted..."
+msgstr "در حال بررسی فهرست گواهی‌ها..."
+
+#: lets-encrypt/class-letsencrypt-handler.php:973
+msgid "The Terms & Conditions were not accepted. Please accept in the general settings."
+msgstr "شرایط و ضوابط پذیرفته نشد. لطفا در تنظیمات عمومی قبول کنید."
+
+#: lets-encrypt/class-letsencrypt-handler.php:969
+msgid "Terms & Conditions are accepted."
+msgstr "شرایط و ضوابط پذیرفته شده است."
+
+#: class-admin.php:2183
+msgid "HttpOnly Secure cookies have been set automatically!"
+msgstr "کوکی های HttpOnly Secure به طور خودکار تنظیم شده اند!"
+
+#: class-admin.php:2273
+msgid "As Really Simple SSL handles all the functionality this plugin provides, we recommend to disable this plugin to prevent unexpected behavior."
+msgstr "از آنجایی که Really Simple SSL تمام عملکردهایی را که این افزونه ارائه می دهد انجام می دهد، توصیه می کنیم برای جلوگیری از رفتارهای غیرمنتظره، این افزونه را غیرفعال کنید."
+
+#: class-admin.php:2273
+msgid "We have detected the %s plugin on your website."
+msgstr "ما افزونه %s را در وب سایت شما شناسایی کرده ایم."
+
+#: onboarding/class-onboarding.php:235
+msgid "Please refresh the SSL status if a certificate has been installed recently."
+msgstr "اگر گواهی اخیراً نصب شده است، لطفاً وضعیت SSL را بازخوانی کنید."
+
+#: onboarding/class-onboarding.php:235
+msgid "No SSL certificate has been detected."
+msgstr "هیچ گواهی SSL شناسایی نشده است."
+
+#: lets-encrypt/config/notices.php:126
+msgid "Your server provides shell functionality, which offers additional methods to install SSL. If installing SSL using the default methods is not possible, you can install the shell add on."
+msgstr "سرور شما عملکرد پوسته ای را ارائه می دهد که روش های اضافی را برای نصب SSL ارائه می دهد. اگر نصب SSL با استفاده از روش های پیش فرض امکان پذیر نیست، می توانید افزونه پوسته را نصب کنید."
+
+#: lets-encrypt/class-letsencrypt-handler.php:458
+msgid "If you entered your DNS records before, they need to be changed."
+msgstr "اگر قبلاً رکوردهای DNS خود را وارد کرده اید، باید آنها را تغییر دهید."
+
+#: lets-encrypt/class-letsencrypt-handler.php:455
+msgid "Order ID mismatch, regenerate order."
+msgstr "عدم تطابق شناسه سفارش، ایجاد مجدد نظم."
+
+#: class-admin.php:1965
+msgid "Really Simple SSL Pro is not up to date. Update Really Simple SSL Pro to ensure compatibility."
+msgstr "Really Simple SSL pro به روز نیست. برای اطمینان از سازگاری، Really Simple SSL pro را به روز کنید."
+
+#: settings/config/config.php:169 settings/build/967.60c930b6e473f21beb92.js:1
+#: settings/src/LetsEncrypt/Installation.js:96
+#: settings/src/LetsEncrypt/Installation.js:101
+#: settings/src/LetsEncrypt/Installation.js:105
+msgid "Download"
+msgstr "دانلود"
+
+#: settings/config/menu.php:86 settings/build/772.ffad42a4aac072147b00.js:1
+#: settings/src/Settings/Settings.js:131
+msgid "Notifications"
+msgstr "اعلان ها"
+
+#: lets-encrypt/config/notices.php:28
+msgid "Your Key and Certificate directories are not properly protected."
+msgstr "دایرکتوری های کلید و گواهی شما به درستی محافظت نمی شوند."
+
+#: lets-encrypt/config/notices.php:109
+msgid "Your certificate will be renewed and installed automatically."
+msgstr "گواهی شما به طور خودکار تمدید و نصب می شود."
+
+#: lets-encrypt/config/notices.php:102
+msgid "Automatic renewal of your certificate was not possible. The SSL certificate should be %srenewed%s manually."
+msgstr "تمدید خودکار گواهی شما امکان پذیر نبود. گواهی SSL باید %srenewed%s به صورت دستی باشد."
+
+#: lets-encrypt/config/notices.php:95
+msgid "The SSL certificate has been renewed, and requires manual %sinstallation%s in your hosting dashboard."
+msgstr "گواهی SSL تمدید شده است و به %sنصب و راه اندازی%s دستی در داشبورد میزبانی شما نیاز دارد."
+
+#: lets-encrypt/config/notices.php:88
+msgid "The automatic installation of your certificate has failed. Please check your credentials, and retry the %sinstallation%s."
+msgstr "نصب خودکار گواهی شما انجام نشد. لطفاً اعتبار خود را بررسی کنید و %sنصب و راه اندازی%s را دوباره امتحان کنید."
+
+#: lets-encrypt/config/notices.php:73
+msgid "Your certificate will expire on %s. You can renew it %shere%s."
+msgstr "گواهی شما در %s منقضی می شود. می توانید آن را %sاینجا%s تمدید کنید."
+
+#: lets-encrypt/config/notices.php:69
+msgid "Your certificate is valid until: %s"
+msgstr "گواهی شما برای: %s معتبر است"
+
+#: lets-encrypt/config/notices.php:42
+msgid "The www version of your site does not point to this website. This is recommended, as it will allow you to add it to the certificate as well."
+msgstr "نسخه www سایت شما به این وب سایت اشاره نمی کند. این توصیه می شود، زیرا به شما امکان می دهد آن را نیز به گواهی اضافه کنید."
+
+#: lets-encrypt/config/notices.php:40
+msgid "The non-www version of your site does not point to this website. This is recommended, as it will allow you to add it to the certificate as well."
+msgstr "نسخه غیرwww سایت شما به این وب سایت اشاره نمی کند. این توصیه می شود، زیرا به شما امکان می دهد آن را نیز به گواهی اضافه کنید."
+
+#: lets-encrypt/config/fields.php:551
+msgid "Searching for link to SSL installation page on your server..."
+msgstr "در حال جستجوی پیوند به صفحه نصب SSL در سرور شما..."
+
+#: lets-encrypt/config/fields.php:29 settings/config/menu.php:263
+msgid "Installation"
+msgstr "نصب و راه اندازی"
+
+#: lets-encrypt/config/fields.php:25 settings/config/menu.php:258
+msgid "Generation"
+msgstr "نسل"
+
+#: lets-encrypt/config/fields.php:499
+msgid "Retrieving DNS verification token..."
+msgstr "در حال بازیابی رمز تأیید DNS..."
+
+#: lets-encrypt/config/fields.php:493 lets-encrypt/config/fields.php:531
+msgid "Creating account..."
+msgstr "ایجاد حساب کاربری..."
+
+#: lets-encrypt/config/fields.php:21
+msgid "DNS Verification"
+msgstr "تأیید DNS"
+
+#: lets-encrypt/config/fields.php:472
+msgid "Checking challenge directory reachable over http..."
+msgstr "در حال بررسی دایرکتوری چالش قابل دسترسی از طریق http..."
+
+#: lets-encrypt/config/fields.php:465
+msgid "Checking permissions..."
+msgstr "در حال بررسی مجوزها..."
+
+#: lets-encrypt/config/fields.php:459
+msgid "Checking certs directory..."
+msgstr "در حال بررسی فهرست گواهی‌ها..."
+
+#: lets-encrypt/config/fields.php:453
+msgid "Checking key directory..."
+msgstr "در حال بررسی دایرکتوری کلید..."
+
+#: lets-encrypt/config/fields.php:447
+msgid "Checking challenge directory..."
+msgstr "در حال بررسی فهرست چالش..."
+
+#: lets-encrypt/config/fields.php:17 settings/config/menu.php:248
+msgid "Directories"
+msgstr "دایرکتوری ها"
+
+#: settings/config/menu.php:243
+msgid "Below you will find the instructions for different hosting environments and configurations. If you start the process with the necessary instructions and credentials the next view steps will be done in no time."
+msgstr "در زیر دستورالعمل های مربوط به محیط ها و تنظیمات مختلف هاست را مشاهده خواهید کرد. اگر فرآیند را با دستورالعمل ها و اعتبارنامه های لازم شروع کنید، مراحل نمای بعدی در کمترین زمان انجام می شود."
+
+#: settings/config/menu.php:242
+msgid "Hosting"
+msgstr "میزبانی"
+
+#: settings/config/menu.php:231
+msgid "Letʼs Encrypt is a free, automated and open certificate authority brought to you by the nonprofit Internet Security Research Group (ISRG)."
+msgstr "Letʼs Encrypt یک مرجع گواهی رایگان، خودکار و باز است که توسط گروه تحقیقاتی امنیت اینترنت غیرانتفاعی (ISRG) برای شما آورده شده است."
+
+#: settings/config/menu.php:223
+msgid " Please note that you can always save and finish the wizard later, use our %sdocumentation%s for additional information or log a %ssupport ticket%s if you need our assistance."
+msgstr " لطفاً توجه داشته باشید که همیشه می توانید جادوگر را ذخیره کرده و بعداً تمام کنید، از ما استفاده کنید %sمستندات%s برای اطلاعات بیشتر یا ورود به سیستم a %sتیکت پشتیبانی%s اگر به کمک ما نیاز دارید."
+
+#: settings/config/menu.php:221
+msgid "We have tried to make our Wizard as simple and fast as possible. Although these questions are all necessary, if there’s any way you think we can improve the plugin, please let us %sknow%s!"
+msgstr "ما سعی کرده ایم تا جادوگر خود را تا حد امکان ساده و سریع کنیم. اگرچه همه این سؤالات ضروری هستند، اگر راهی وجود دارد که فکر می کنید می توانیم افزونه را بهبود ببخشیم، لطفاً %sبدانند%s را به ما بگویید!"
+
+#: lets-encrypt/config/fields.php:12
+msgid "General settings"
+msgstr "تنظیمات عمومی"
+
+#: lets-encrypt/config/fields.php:76
+msgid "Checking for website configuration..."
+msgstr "در حال بررسی پیکربندی وب سایت..."
+
+#: lets-encrypt/config/fields.php:70
+msgid "Checking alias domain..."
+msgstr "در حال بررسی دامنه نام مستعار..."
+
+#: lets-encrypt/config/fields.php:64
+msgid "Checking server software..."
+msgstr "در حال بررسی نرم افزار سرور..."
+
+#: lets-encrypt/config/fields.php:58
+msgid "Checking if CURL is available..."
+msgstr "بررسی اینکه آیا CURL در دسترس است یا خیر..."
+
+#: lets-encrypt/config/fields.php:52
+msgid "Checking SSL certificate..."
+msgstr "در حال بررسی گواهی SSL..."
+
+#: lets-encrypt/config/fields.php:47
+msgid "Detected status of your setup."
+msgstr "وضعیت راه اندازی شما شناسایی شد."
+
+#: lets-encrypt/config/fields.php:8 settings/config/menu.php:230
+msgid "System Status"
+msgstr "وضعیت سیستم"
+
+#: lets-encrypt/config/fields.php:419
+msgid "Store for renewal purposes. If not stored, renewal may need to be done manually."
+msgstr "فروشگاه برای اهداف تجدید. در صورت ذخیره نشدن، ممکن است لازم باشد تمدید به صورت دستی انجام شود."
+
+#: lets-encrypt/config/fields.php:396
+msgid "Plesk password"
+msgstr "رمز عبور پلسک"
+
+#: lets-encrypt/config/fields.php:376
+msgid "You can find your Plesk username and password in %s"
+msgstr "می توانید نام کاربری و رمز عبور پلسک خود را در %s پیدا کنید"
+
+#: lets-encrypt/config/fields.php:372
+msgid "Plesk username"
+msgstr "نام کاربری پلسک"
+
+#: lets-encrypt/config/fields.php:352
+msgid "The URL you use to access your Plesk dashboard. Ends on :8443."
+msgstr "URL که برای دسترسی به داشبورد پلسک خود استفاده می کنید. به پایان می رسد: 8443."
+
+#: lets-encrypt/config/fields.php:348
+msgid "Plesk host"
+msgstr "میزبان پلسک"
+
+#: lets-encrypt/config/fields.php:332
+msgid "You can find your api key %shere%s (make sure you're logged in with your main account)."
+msgstr "می‌توانید کلید api %sاینجا%s خود را پیدا کنید (مطمئن شوید که با حساب اصلی خود وارد شده‌اید)."
+
+#: lets-encrypt/config/fields.php:326
+msgid "CloudWays api key"
+msgstr "کلید API CloudWays"
+
+#: lets-encrypt/config/fields.php:310
+msgid "CloudWays user email"
+msgstr "ایمیل کاربر CloudWays"
+
+#: lets-encrypt/config/fields.php:290
+msgid "DirectAdmin password"
+msgstr "رمز عبور دایرکت ادمین"
+
+#: lets-encrypt/config/fields.php:271
+msgid "DirectAdmin username"
+msgstr "نام کاربری دایرکت ادمین"
+
+#: lets-encrypt/config/fields.php:251
+msgid "The URL you use to access your DirectAdmin dashboard. Ends on :2222."
+msgstr "آدرس اینترنتی که برای دسترسی به داشبورد دایرکت ادمین خود استفاده می کنید. به پایان می رسد: 2222."
+
+#: lets-encrypt/config/fields.php:247
+msgid "DirectAdmin host"
+msgstr "میزبان دایرکت ادمین"
+
+#: lets-encrypt/config/fields.php:228
+msgid "CPanel password"
+msgstr "پسورد سی پنل"
+
+#: lets-encrypt/config/fields.php:209
+msgid "CPanel username"
+msgstr "نام کاربری سی پنل"
+
+#: lets-encrypt/config/fields.php:189
+msgid "The URL you use to access your cPanel dashboard. Ends on :2083."
+msgstr "آدرس اینترنتی که برای دسترسی به داشبورد سی پنل خود استفاده می کنید. پایان در: 2083."
+
+#: lets-encrypt/config/fields.php:185 lets-encrypt/config/fields.php:188
+msgid "CPanel host"
+msgstr "میزبان سی پنل"
+
+#: lets-encrypt/config/fields.php:175
+msgid "Hosting provider"
+msgstr "ارائه دهنده هاست"
+
+#: lets-encrypt/config/fields.php:171
+msgid "If your hosting provider is not listed, and there's an SSL activation/installation link, please let us %sknow%s."
+msgstr "اگر ارائه‌دهنده میزبانی شما در لیست نیست و پیوند فعال‌سازی/نصب SSL وجود دارد، لطفاً %sبدانند%s را به ما اطلاع دهید."
+
+#: lets-encrypt/config/fields.php:169
+msgid "By selecting your hosting provider we can tell you if your hosting provider already supports free SSL, and/or where you can activate it."
+msgstr "با انتخاب ارائه‌دهنده هاست خود، می‌توانیم به شما بگوییم که آیا ارائه‌دهنده میزبانی شما قبلاً از SSL رایگان پشتیبانی می‌کند یا خیر و/یا کجا می‌توانید آن را فعال کنید."
+
+#: lets-encrypt/config/fields.php:150
+msgid "You should have the www domain pointed to the same website as the non-www domain."
+msgstr "شما باید دامنه www را به همان وب سایتی که دامنه غیر www است اشاره کنید."
+
+#: lets-encrypt/config/fields.php:149
+msgid "This will include both the www. and non-www. version of your domain."
+msgstr "این شامل هر دو www. و غیر www. نسخه دامنه شما"
+
+#: lets-encrypt/config/fields.php:134 lets-encrypt/config/notices.php:50
+msgid "Domain"
+msgstr "دامنه"
+
+#: settings/settings.php:505
+msgid "Terms and Conditions"
+msgstr "شرایط و ضوابط"
+
+#: lets-encrypt/config/fields.php:94 lets-encrypt/config/fields.php:97
+#: settings/config/config.php:125
+msgid "Email address"
+msgstr "آدرس ایمیل"
+
+#: lets-encrypt/config/fields.php:98
+msgid "This email address is used to create a Let's Encrypt account. This is also where you will receive renewal notifications."
+msgstr "از این آدرس ایمیل برای ایجاد یک حساب کاربری Let's Encrypt استفاده می شود. این همان جایی است که شما اعلان های تمدید را دریافت خواهید کرد."
+
+#: lets-encrypt/config/class-hosts.php:534
+msgid "I don't know, or not listed, proceed with installation"
+msgstr "من نمی دانم، یا در لیست نیستم، نصب را ادامه دهید"
+
+#: lets-encrypt/config/fields.php:569
+msgid "Checking for subdomain setup..."
+msgstr "در حال بررسی راه اندازی زیر دامنه..."
+
+#: lets-encrypt/config/fields.php:537
+msgid "Generating SSL certificate..."
+msgstr "در حال تولید گواهی SSL..."
+
+#: lets-encrypt/integrations/plesk/plesk.php:87
+msgid "Successfully installed SSL"
+msgstr "SSL با موفقیت نصب شد"
+
+#: lets-encrypt/integrations/plesk/functions.php:33
+msgid "Installing SSL certificate using PLESK API..."
+msgstr "در حال نصب گواهی SSL با استفاده از پلکس API..."
+
+#: lets-encrypt/integrations/cpanel/functions.php:107
+#: lets-encrypt/integrations/directadmin/functions.php:35
+msgid "Attempting to install certificate..."
+msgstr "تلاش برای نصب گواهی..."
+
+#: lets-encrypt/integrations/cpanel/functions.php:100
+msgid "Attempting to set DNS txt record..."
+msgstr "تلاش برای تنظیم رکورد txt DNS..."
+
+#: lets-encrypt/integrations/cpanel/functions.php:91
+msgid "Attempting to install certificate using AutoSSL..."
+msgstr "تلاش برای نصب گواهی با استفاده از AutoSSL..."
+
+#: lets-encrypt/integrations/cpanel/functions.php:63
+msgid "The system is not ready for the DNS verification yet. Please run the wizard again."
+msgstr "سیستم هنوز برای تأیید DNS آماده نیست. لطفاً دوباره ویزارد را اجرا کنید."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:308
+#: lets-encrypt/integrations/cpanel/cpanel.php:327
+msgid "Could not automatically add TXT record. Please proceed manually, following the steps below."
+msgstr "ضبط TXT به صورت خودکار اضافه نشد. لطفاً به صورت دستی و مراحل زیر را دنبال کنید."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:304
+#: lets-encrypt/integrations/cpanel/cpanel.php:323
+msgid "Successfully added TXT record."
+msgstr "رکورد TXT با موفقیت اضافه شد."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:296
+msgid "Login credentials incorrect"
+msgstr "اعتبار ورود نادرست است"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:292
+msgid "Unable to connect to cPanel"
+msgstr "امکان اتصال به سی پنل وجود ندارد"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:205
+msgid "Errors were reported during installation."
+msgstr "در حین نصب، خطاهایی گزارش شد."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:126
+msgid "Errors were reported during installation"
+msgstr "در حین نصب، خطاهایی گزارش شد"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:121
+#: lets-encrypt/integrations/directadmin/directadmin.php:122
+msgid "SSL successfully installed on %s"
+msgstr "SSL با موفقیت در %s نصب شد"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:64
+#: lets-encrypt/integrations/directadmin/directadmin.php:64
+msgid "No valid list of domains."
+msgstr "لیست معتبری از دامنه ها وجود ندارد."
+
+#: lets-encrypt/integrations/cloudways/functions.php:49
+msgid "Enabling auto renew..."
+msgstr "فعال کردن تمدید خودکار..."
+
+#: lets-encrypt/integrations/cloudways/functions.php:43
+msgid "Installing SSL certificate..."
+msgstr "در حال نصب گواهی SSL..."
+
+#: lets-encrypt/integrations/cloudways/functions.php:37
+msgid "Retrieving Cloudways server data..."
+msgstr "در حال بازیابی اطلاعات سرور Cloudways..."
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:248
+msgid "Could not retrieve server list"
+msgstr "لیست سرور بازیابی نشد"
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:208
+#: lets-encrypt/integrations/cloudways/cloudways.php:241
+msgid "Successfully retrieved server id and app id"
+msgstr "شناسه سرور و شناسه برنامه با موفقیت بازیابی شد"
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:192
+msgid "Error enabling auto renew for Let's Encrypt"
+msgstr "خطا در فعال کردن تمدید خودکار برای Let's Encrypt"
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:177
+#: lets-encrypt/integrations/cloudways/cloudways.php:183
+msgid "Successfully installed Let's Encrypt"
+msgstr "Let's Encrypt با موفقیت نصب شد"
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:157
+msgid "Failed retrieving access token"
+msgstr "رمز دسترسی بازیابی نشد"
+
+#: lets-encrypt/functions.php:399
+msgid "You can follow these %sinstructions%s."
+msgstr "می توانید این %sدستورالعمل ها%s را دنبال کنید."
+
+#: lets-encrypt/functions.php:397
+msgid "Your hosting environment does not allow automatic SSL installation."
+msgstr "محیط میزبانی شما اجازه نصب خودکار SSL را نمی دهد."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1124
+#: lets-encrypt/functions.php:394
+msgid "According to our information, your hosting provider does not allow any kind of SSL installation, other then their own paid certificate. For an alternative hosting provider with SSL, see this %sarticle%s."
+msgstr "با توجه به اطلاعات ما، ارائه دهنده هاست شما اجازه نصب هیچ نوع SSL، غیر از گواهی پولی خود را نمی دهد. برای ارائه دهنده میزبانی جایگزین با SSL، به این %sمقاله%s مراجعه کنید."
+
+#: lets-encrypt/functions.php:388
+msgid "You already have free SSL on your hosting environment."
+msgstr "شما در حال حاضر SSL رایگان در محیط میزبانی خود دارید."
+
+#: lets-encrypt/functions.php:386 lets-encrypt/functions.php:390
+#: lets-encrypt/functions.php:400
+msgid "After completing the installation, you can continue to the next step to complete your configuration."
+msgstr "پس از اتمام نصب، می توانید برای تکمیل تنظیمات خود به مرحله بعدی بروید."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1131
+#: lets-encrypt/functions.php:384
+msgid "According to our information, your hosting provider supplies your account with an SSL certificate by default. Please contact your %shosting support%s if this is not the case."
+msgstr "طبق اطلاعات ما، ارائه دهنده هاست شما به طور پیش فرض حساب شما را با گواهینامه SSL تامین می کند. اگر اینطور نیست، لطفاً با پشتیبانی %sمیزبانی%s خود تماس بگیرید."
+
+#: lets-encrypt/functions.php:379
+msgid "Go to installation"
+msgstr "به نصب بروید"
+
+#: lets-encrypt/functions.php:378
+msgid "Go to activation"
+msgstr "به فعال سازی بروید"
+
+#: lets-encrypt/functions.php:377
+msgid "Please activate it on your dashboard %smanually%s"
+msgstr "لطفاً آن را به صورت دستی %s در داشبورد خود فعال کنید%s"
+
+#: lets-encrypt/functions.php:376
+msgid "Please complete %smanually%s"
+msgstr "لطفاً %s را به صورت دستی تکمیل کنید%s"
+
+#: lets-encrypt/functions.php:374
+msgid "Please activate it manually on your hosting dashboard."
+msgstr "لطفاً آن را به صورت دستی در داشبورد میزبان خود فعال کنید."
+
+#: lets-encrypt/functions.php:373
+msgid "Please complete manually in your hosting dashboard."
+msgstr "لطفا به صورت دستی در داشبورد میزبانی خود تکمیل کنید."
+
+#: lets-encrypt/download.php:49
+msgid "File missing. Please retry the previous steps."
+msgstr "فایل موجود نیست. لطفاً مراحل قبلی را دوباره امتحان کنید."
+
+#: lets-encrypt/cron.php:84 security/cron.php:62
+msgid "Once every 5 minutes"
+msgstr "هر 5 دقیقه یکبار"
+
+#: lets-encrypt/cron.php:80 security/cron.php:66
+msgid "Once every day"
+msgstr "هر روز یکبار"
+
+#: lets-encrypt/cron.php:76 security/cron.php:74
+msgid "Once every week"
+msgstr "هر هفته یکبار"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1747
+#: lets-encrypt/integrations/cloudways/functions.php:22
+#: lets-encrypt/integrations/cpanel/functions.php:17
+#: lets-encrypt/integrations/cpanel/functions.php:35
+#: lets-encrypt/integrations/directadmin/functions.php:16
+#: lets-encrypt/integrations/plesk/functions.php:16
+msgid "The system is not ready for the installation yet. Please run the wizard again."
+msgstr "سیستم هنوز برای نصب آماده نیست. لطفاً دوباره ویزارد را اجرا کنید."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1742
+msgid "Installation failed."
+msgstr "نصب انجام نشد."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1737
+msgid "Not recognized server."
+msgstr "سرور شناسایی نشد"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1707
+msgid "The certificate installation was rate limited. Please try again later."
+msgstr "نصب گواهی با نرخ محدود بود. لطفاً بعداً دوباره امتحان کنید."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1628
+msgid "Error code %s"
+msgstr "کد خطا %s"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1611
+msgid "Please create a folder 'rsssl' in the uploads directory, with 644 permissions."
+msgstr "لطفاً یک پوشه 'rsssl' در فهرست آپلودها با 644 مجوز ایجاد کنید."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1610
+msgid "Could not create test folder and file."
+msgstr "پوشه و فایل آزمایشی ایجاد نشد."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1581
+msgid "If this is not the case, don't add this alias to your certificate."
+msgstr "اگر اینطور نیست، این نام مستعار را به گواهی خود اضافه نکنید."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1581
+msgid "Could not verify alias domain."
+msgstr "دامنه نام مستعار تأیید نشد."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1579
+msgid "Please check if the www version of your site also points to this website."
+msgstr "لطفاً بررسی کنید که آیا نسخه www سایت شما نیز به این وب سایت اشاره دارد یا خیر."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1577
+msgid "Please check if the non www version of your site also points to this website."
+msgstr "لطفاً بررسی کنید که آیا نسخه غیر www سایت شما نیز به این وب سایت اشاره دارد یا خیر."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1558
+msgid "Alias domain check is not relevant for a subdomain"
+msgstr "بررسی دامنه مستعار برای یک زیر دامنه مرتبط نیست"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1528
+msgid "No subdomain setup detected."
+msgstr "هیچ تنظیم ساب دامین شناسایی نشد."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1290
+#: lets-encrypt/class-letsencrypt-handler.php:1588
+#: lets-encrypt/class-letsencrypt-handler.php:1639
+msgid "Successfully verified alias domain."
+msgstr "دامنه نام مستعار با موفقیت تأیید شد."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1279
+#: lets-encrypt/class-letsencrypt-handler.php:1283
+msgid "Error code %s."
+msgstr "کد خطا %s."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1265
+msgid "Challenge directory not writable."
+msgstr "دایرکتوری چالش قابل نوشتن نیست."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1259
+msgid "Could not reach challenge directory over %s."
+msgstr "دسترسی به دایرکتوری چالش بیش از %s امکان پذیر نیست."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1255
+#: lets-encrypt/class-letsencrypt-handler.php:1565
+msgid "no response"
+msgstr "بدون پاسخ"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1196
+msgid "The certs directory was successfully created."
+msgstr "دایرکتوری certs با موفقیت ایجاد شد."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1192
+msgid "The certs directory is not created yet."
+msgstr "فهرست گواهی ها هنوز ایجاد نشده است."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1177
+msgid "The key directory was successfully created."
+msgstr "دایرکتوری کلید با موفقیت ایجاد شد."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1169
+msgid "Trying to create directory in root of website."
+msgstr "تلاش برای ایجاد دایرکتوری در ریشه وب سایت."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1165
+msgid "The key directory is not created yet."
+msgstr "دایرکتوری کلید هنوز ایجاد نشده است."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1152
+msgid "The challenge directory was successfully created."
+msgstr "دایرکتوری چالش با موفقیت ایجاد شد."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1148
+msgid "The challenge directory is not created yet."
+msgstr "دایرکتوری چالش هنوز ایجاد نشده است."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1105
+msgid "The required directories have the necessary writing permissions."
+msgstr "دایرکتوری های مورد نیاز دارای مجوزهای لازم برای نوشتن هستند."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1098
+msgid "Set permissions to 644 to enable SSL generation."
+msgstr "برای فعال کردن تولید SSL، مجوزها را روی 644 تنظیم کنید."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1098
+msgid "The following directories do not have the necessary writing permissions."
+msgstr "دایرکتوری های زیر مجوز نوشتن لازم را ندارند."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1082
+msgid "Please complete the following step(s) first: %s"
+msgstr "لطفاً ابتدا مرحله (های) زیر را کامل کنید: %s"
+
+#: lets-encrypt/class-letsencrypt-handler.php:817
+msgid "Order successfully retrieved."
+msgstr "سفارش با موفقیت بازیابی شد."
+
+#: lets-encrypt/class-letsencrypt-handler.php:801
+msgid "Order successfully created."
+msgstr "سفارش با موفقیت ایجاد شد."
+
+#: lets-encrypt/class-letsencrypt-handler.php:743
+msgid "Bundle not available yet..."
+msgstr "بسته هنوز در دسترس نیست..."
+
+#: lets-encrypt/class-letsencrypt-handler.php:735
+msgid "Files not created yet..."
+msgstr "فایل هایی که هنوز ایجاد نشده اند..."
+
+#: lets-encrypt/class-letsencrypt-handler.php:729
+msgid "Successfully generated certificate."
+msgstr "گواهی با موفقیت ایجاد شد."
+
+#: lets-encrypt/class-letsencrypt-handler.php:692
+msgid "OCSP not supported, the certificate will be generated without OCSP."
+msgstr "OCSP پشتیبانی نمی شود، گواهی بدون OCSP تولید می شود."
+
+#: lets-encrypt/class-letsencrypt-handler.php:684
+msgid "As your order will be regenerated, you'll need to update your DNS text records."
+msgstr "از آنجایی که سفارش شما دوباره تولید می شود، باید سوابق متنی DNS خود را به روز کنید."
+
+#: lets-encrypt/class-letsencrypt-handler.php:451
+#: lets-encrypt/class-letsencrypt-handler.php:681
+msgid "The order is invalid, possibly due to too many failed authorization attempts. Please start at the previous step."
+msgstr "این سفارش نامعتبر است، احتمالاً به دلیل تلاش‌های ناموفق بیش از حد برای مجوز. لطفا از مرحله قبل شروع کنید."
+
+#: lets-encrypt/class-letsencrypt-handler.php:666
+msgid "Authorization not completed yet."
+msgstr "مجوز هنوز تکمیل نشده است."
+
+#: lets-encrypt/class-letsencrypt-handler.php:642
+msgid "Certificate already generated. It was renewed if required."
+msgstr "گواهی قبلاً تولید شده است. در صورت نیاز تمدید شد."
+
+#: lets-encrypt/class-letsencrypt-handler.php:610
+msgid "DNS records were not verified yet. Please complete the previous step."
+msgstr "سوابق DNS هنوز تأیید نشده است. لطفا مرحله قبل را کامل کنید."
+
+#: lets-encrypt/class-letsencrypt-handler.php:596
+msgid "Please double check your DNS txt record."
+msgstr "لطفاً رکورد txt DNS خود را دوباره بررسی کنید."
+
+#: lets-encrypt/class-letsencrypt-handler.php:594
+msgid "The certificate generation was rate limited for 10 minutes because the authorization failed."
+msgstr "سرعت تولید گواهی به مدت 10 دقیقه محدود بود زیرا مجوز انجام نشد."
+
+#: lets-encrypt/class-letsencrypt-handler.php:553
+msgid "Could not verify TXT record for domain %s"
+msgstr "ثبت TXT برای دامنه %s تأیید نشد"
+
+#: lets-encrypt/class-letsencrypt-handler.php:544
+msgid "The DNS response for %s was %s, while it should be %s."
+msgstr "پاسخ DNS برای %s %s بود، در حالی که باید %s باشد."
+
+#: lets-encrypt/class-letsencrypt-handler.php:536
+msgid "Successfully verified DNS records"
+msgstr "سوابق DNS با موفقیت تأیید شد"
+
+#: lets-encrypt/class-letsencrypt-handler.php:522
+#: lets-encrypt/integrations/cpanel/functions.php:47
+msgid "Token not generated. Please complete the previous step."
+msgstr "توکن تولید نشد. لطفا مرحله قبل را کامل کنید."
+
+#: lets-encrypt/class-letsencrypt-handler.php:480
+msgid "Configured for HTTP challenge"
+msgstr "برای چالش HTTP پیکربندی شده است"
+
+#: lets-encrypt/class-letsencrypt-handler.php:439
+msgid "Token not received yet."
+msgstr "رمز هنوز دریافت نشده است."
+
+#: lets-encrypt/class-letsencrypt-handler.php:424
+#: lets-encrypt/class-letsencrypt-handler.php:432
+msgid "Token successfully retrieved."
+msgstr "رمز با موفقیت بازیابی شد."
+
+#: lets-encrypt/class-letsencrypt-handler.php:387
+msgid "The email address was not set. Please set the email address"
+msgstr "آدرس ایمیل تنظیم نشده است. لطفا آدرس ایمیل را تنظیم کنید"
+
+#: lets-encrypt/class-letsencrypt-handler.php:379
+msgid "Please change your email address %shere%s and try again."
+msgstr "لطفا آدرس ایمیل %sاینجا%s خود را تغییر دهید و دوباره امتحان کنید."
+
+#: lets-encrypt/class-letsencrypt-handler.php:378
+msgid "The used domain for your email address is not allowed."
+msgstr "دامنه استفاده شده برای آدرس ایمیل شما مجاز نیست."
+
+#: lets-encrypt/class-letsencrypt-handler.php:371
+msgid "Successfully retrieved account"
+msgstr "حساب با موفقیت بازیابی شد"
+
+#: lets-encrypt/class-letsencrypt-handler.php:351
+msgid "The PHP function CURL has successfully been detected."
+msgstr "تابع PHP CURL با موفقیت شناسایی شد."
+
+#: lets-encrypt/class-letsencrypt-handler.php:347
+msgid "The PHP function CURL is not available on your server, which is required. Please contact your hosting provider."
+msgstr "تابع PHP CURL در سرور شما موجود نیست، که لازم است. لطفا با ارائه دهنده هاست خود تماس بگیرید."
+
+#: lets-encrypt/class-letsencrypt-handler.php:331
+msgid "DirectAdmin recognized. Possibly the certificate can be installed automatically."
+msgstr "دایرکت ادمین شناسایی شد. احتمالاً گواهی می تواند به طور خودکار نصب شود."
+
+#: lets-encrypt/class-letsencrypt-handler.php:328
+msgid "Plesk recognized. Possibly the certificate can be installed automatically."
+msgstr "پلسک تشخیص داد. احتمالاً گواهی می تواند به طور خودکار نصب شود."
+
+#: lets-encrypt/class-letsencrypt-handler.php:325
+msgid "CPanel recognized. Possibly the certificate can be installed automatically."
+msgstr "سی پنل شناسایی شد. احتمالاً گواهی می تواند به طور خودکار نصب شود."
+
+#: lets-encrypt/class-letsencrypt-handler.php:321
+msgid "The Hosting Panel software was not recognized. Depending on your hosting provider, the generated certificate may need to be installed manually."
+msgstr "نرم افزار پنل هاست شناسایی نشد. بسته به ارائه دهنده هاست شما، گواهی تولید شده ممکن است نیاز به نصب دستی داشته باشد."
+
+#: lets-encrypt/class-letsencrypt-handler.php:290
+msgid "SSL certificate should be generated and installed."
+msgstr "گواهی SSL باید تولید و نصب شود."
+
+#: lets-encrypt/class-letsencrypt-handler.php:284
+msgid "You already have a valid SSL certificate."
+msgstr "شما قبلاً یک گواهی SSL معتبر دارید."
+
+#: lets-encrypt/class-letsencrypt-handler.php:280
+msgid "Continue to renew."
+msgstr "به تمدید ادامه دهید."
+
+#: lets-encrypt/class-letsencrypt-handler.php:280
+msgid "Your certificate will expire on %s."
+msgstr "گواهی شما در %s منقضی می شود."
+
+#: lets-encrypt/class-letsencrypt-handler.php:274
+msgid "(unknown)"
+msgstr "(ناشناخته)"
+
+#: lets-encrypt/class-letsencrypt-handler.php:210
+msgid "Your domain meets the requirements for Let's Encrypt."
+msgstr "دامنه شما الزامات Let's Encrypt را دارد."
+
+#: lets-encrypt/class-letsencrypt-handler.php:192
+msgid "It is not possible to install Let's Encrypt on a localhost environment."
+msgstr "امکان نصب Let's Encrypt در محیط لوکال هاست وجود ندارد."
+
+#: lets-encrypt/class-letsencrypt-handler.php:202
+msgid "It is not possible to install Let's Encrypt on a subfolder configuration."
+msgstr "امکان نصب Let's Encrypt در پیکربندی زیرپوشه وجود ندارد."
+
+#: lets-encrypt/class-letsencrypt-handler.php:197
+msgid "It is not possible to install Let's Encrypt on a subsite. Please go to the main site of your website."
+msgstr "امکان نصب Let's Encrypt در یک سایت فرعی وجود ندارد. لطفا به سایت اصلی وب سایت خود بروید."
+
+#: class-admin.php:2262
+msgid "You have the Really Simple SSL Let's Encrypt beta add-on activated. This functionality has now been integrated in core, so you can deactivate the add-on."
+msgstr "شما افزونه واقعا ساده SSL Let's Encrypt بتا را فعال کرده اید. این قابلیت اکنون در هسته ادغام شده است، بنابراین می توانید افزونه را غیرفعال کنید."
+
+#: class-admin.php:2044 settings/build/688.ea69dfea12bc73015951.js:1
+#: settings/build/967.60c930b6e473f21beb92.js:1
+#: settings/src/Dashboard/TaskElement.js:50
+msgid "Re-check"
+msgstr "دوباره بررسی کنید"
+
+#: class-admin.php:2042
+msgid "Depending on your hosting provider, %smanual installation%s may be required."
+msgstr "بسته به ارائه دهنده میزبانی شما، %s نصب دستی %s ممکن است مورد نیاز باشد."
+
+#: class-admin.php:2041
+msgid "If your hosting provider auto-renews your certificate, no action is required. Alternatively, you have the option to generate an SSL certificate with Really Simple SSL."
+msgstr "اگر ارائه دهنده هاست شما به طور خودکار گواهی شما را تمدید کند، هیچ اقدامی لازم نیست. از طرف دیگر، شما می توانید یک گواهی SSL با Really Simple SSL ایجاد کنید."
+
+#: class-admin.php:2041
+msgid "SSL certificate will expire on %s."
+msgstr "گواهی SSL در %s منقضی می شود."
+
+#: class-admin.php:2040
+msgid "Your SSL certificate will expire soon."
+msgstr "گواهی SSL شما به زودی منقضی می شود."
+
+#: class-admin.php:2020
+msgid "No SSL detected. Use the retry button to check again."
+msgstr "هیچ SSL شناسایی نشد. برای بررسی مجدد از دکمه تلاش مجدد استفاده کنید."
+
+#: class-admin.php:1890
+msgid "(Unknown)"
+msgstr "(ناشناخته)"
+
+#: class-admin.php:2021 class-admin.php:2029 class-admin.php:2043
+msgid "Install SSL certificate"
+msgstr "گواهی SSL را نصب کنید"
+
+#: class-admin.php:2022
+msgid "Retry"
+msgstr "دوباره امتحان کنید"
+
+#: onboarding/class-onboarding.php:225
+msgid "An SSL certificate has been detected"
+msgstr "یک گواهی SSL شناسایی شده است"
+
+#: class-admin.php:2203
+msgid "Or set your wp-config.php to writable and reload this page."
+msgstr "یا wp-config.php خود را روی قابل نوشتن تنظیم کنید و این صفحه را دوباره بارگیری کنید."
+
+#: class-admin.php:2195
+msgid "Add the following lines of code to your wp-config.php."
+msgstr "خطوط کد زیر را به wp-config.php خود اضافه کنید."
+
+#: class-admin.php:2195
+msgid "To set the httponly secure cookie settings, your wp-config.php has to be edited, but the file is not writable."
+msgstr "برای تنظیم httponly تنظیمات کوکی امن، wp-config.php شما باید ویرایش شود، اما فایل قابل نوشتن نیست."
+
+#: class-admin.php:2188
+msgid "HttpOnly Secure cookies not set."
+msgstr "کوکی های HttpOnly Secure تنظیم نشده است."
+
+#: class-admin.php:2249
+msgid "Due to a recent update by WP Engine, we have changed your settings automatically to adapt."
+msgstr "با توجه به به‌روزرسانی اخیر توسط WP Engine، تنظیمات شما را به‌طور خودکار تغییر داده‌ایم تا سازگار شوند."
+
+#: class-admin.php:1951
+msgid "The Really Simple SSL plugin folder in the /wp-content/plugins/ directory has been renamed to %s. This might cause issues when deactivating, or with premium add-ons. To fix this you can rename the Really Simple SSL folder back to the default %s."
+msgstr "پوشه پلاگین Really Simple SSL در فهرست /wp-content/plugins/ به %s تغییر نام داده است. این ممکن است هنگام غیرفعال کردن، یا با افزونه‌های ممتاز مشکلاتی ایجاد کند. برای رفع این مشکل می توانید نام پوشه Really Simple SSL را به %s پیش فرض تغییر دهید."
+
+#: class-site-health.php:150
+msgid "Not all recommended security headers are installed"
+msgstr "همه هدرهای امنیتی توصیه شده نصب نشده اند"
+
+#: onboarding/class-onboarding.php:260
+msgid "Consent Management as it should be"
+msgstr "مدیریت رضایت آنطور که باید باشد"
+
+#: class-site-health.php:138
+msgid "The recommended security headers are detected on your site."
+msgstr "هدرهای امنیتی توصیه شده در سایت شما شناسایی می شوند."
+
+#: class-site-health.php:130
+msgid "Recommended security headers installed"
+msgstr "هدرهای امنیتی توصیه شده نصب شده است"
+
+#: class-site-health.php:34
+msgid "Security Headers Test"
+msgstr "تست سرصفحه های امنیتی"
+
+#: class-site-health.php:29
+msgid "SSL Status Test"
+msgstr "تست وضعیت SSL"
+
+#: class-admin.php:2019
+msgid "No SSL detected"
+msgstr "هیچ SSL شناسایی نشد"
+
+#: class-site-health.php:155
+msgid "Learn more about security headers"
+msgstr "درباره هدرهای امنیتی بیشتر بدانید"
+
+#: class-site-health.php:217
+msgid "Enable 301 redirect"
+msgstr "تغییر مسیر 301 را فعال کنید"
+
+#: class-site-health.php:212
+msgid "To ensure all traffic passes through SSL, please enable a 301 redirect."
+msgstr "برای اطمینان از عبور تمام ترافیک از طریق SSL، لطفاً تغییر مسیر 301 را فعال کنید."
+
+#: class-site-health.php:209
+msgid "No 301 redirect to SSL enabled."
+msgstr "هیچ تغییر مسیر 301 به SSL فعال نیست."
+
+#: class-site-health.php:203
+msgid "Really Simple SSL is installed, but no valid SSL certificate is detected."
+msgstr "SSL Really Simple نصب شده است، اما گواهی SSL معتبری شناسایی نشده است."
+
+#: class-site-health.php:190
+msgid "Really Simple SSL detected an SSL certificate, but has not been configured to enforce SSL."
+msgstr "SSL واقعا ساده یک گواهی SSL را شناسایی کرد، اما برای اجرای SSL پیکربندی نشده است."
+
+#: class-site-health.php:187
+msgid "SSL is not enabled."
+msgstr "SSL فعال نیست."
+
+#: class-admin.php:2739
+msgid "Deactivate, revert to http"
+msgstr "غیرفعال کنید، به http برگردید"
+
+#: class-admin.php:2738
+msgid "Deactivate, keep https"
+msgstr "غیرفعال کنید، https را نگه دارید"
+
+#: class-admin.php:2726
+msgid "The WordPress 301 redirect will stop working"
+msgstr "تغییر مسیر وردپرس 301 کار نخواهد کرد"
+
+#: class-admin.php:2721
+msgid "Deactivate, and revert to http. This will remove all changes by the plugin."
+msgstr "غیرفعال کنید و به http برگردید. با این کار تمام تغییرات پلاگین حذف می شود."
+
+#: class-admin.php:2720
+msgid "Deactivate, but stay on SSL."
+msgstr "غیرفعال کنید، اما روی SSL بمانید."
+
+#: class-admin.php:2718
+msgid "To deactivate the plugin correctly, please select if you want to:"
+msgstr "برای غیرفعال کردن صحیح افزونه، لطفاً در صورت تمایل انتخاب کنید:"
+
+#: class-admin.php:1833
+msgid "Open"
+msgstr "باز کن"
+
+#: class-admin.php:1832 settings/build/967.60c930b6e473f21beb92.js:1
+#: settings/src/Settings/MixedContentScan/MixedContentScan.js:57
+msgid "Warning"
+msgstr "هشدار"
+
+#: class-admin.php:1831
+msgid "Completed"
+msgstr "تکمیل شد"
+
+#: upgrade/upgrade-to-pro.php:190 settings/build/688.ea69dfea12bc73015951.js:1
+#: settings/src/Dashboard/OtherPlugins/OtherPlugins.js:24
+msgid "Installed"
+msgstr "نصب شده است"
+
+#: onboarding/class-onboarding.php:317 upgrade/upgrade-to-pro.php:146
+#: upgrade/upgrade-to-pro.php:159 upgrade/upgrade-to-pro.php:176
+#: settings/build/688.ea69dfea12bc73015951.js:1
+#: settings/src/Dashboard/OtherPlugins/OtherPluginsData.js:73
+msgid "Install"
+msgstr "نصب"
+
+#: class-admin.php:2167
+msgid "Your site uses Divi. This can require some additional steps before getting the secure lock."
+msgstr "سایت شما از دیوی استفاده می کند. این ممکن است قبل از گرفتن قفل ایمن به چند مرحله اضافی نیاز داشته باشد."
+
+#: class-admin.php:2153
+msgid "Your site uses Elementor. This can require some additional steps before getting the secure lock."
+msgstr "سایت شما از المنتور استفاده می کند. این ممکن است قبل از گرفتن قفل ایمن به چند مرحله اضافی نیاز داشته باشد."
+
+#: class-admin.php:2138
+msgid "The .htaccess redirect rules selected by this plugin failed in the test. Set manually or dismiss to leave on PHP redirect."
+msgstr "قوانین تغییر مسیر .htaccess انتخاب شده توسط این افزونه در آزمایش شکست خورد. تنظیم دستی یا رد کردن برای ترک در تغییر مسیر وردپرس."
+
+#: class-admin.php:2124
+msgid "WordPress 301 redirect enabled. We recommend to enable a 301 .htaccess redirect."
+msgstr "تغییر مسیر وردپرس 301 فعال شد. توصیه می کنیم تغییر مسیر 301 .htaccess را فعال کنید."
+
+#: class-admin.php:2079
+msgid "Mixed content fixer not enabled. Enable the option to fix mixed content on your site."
+msgstr "ثابت کننده محتوای ترکیبی فعال نیست. گزینه رفع محتوای ترکیبی را در سایت خود فعال کنید."
+
+#: class-admin.php:2068
+msgid "The mixed content fixer is active, but was not detected on the frontpage."
+msgstr "ثابت کننده محتوای ترکیبی فعال است، اما در صفحه اول شناسایی نشد."
+
+#: class-admin.php:2061
+msgid "Really Simple SSL has received no response from the webpage."
+msgstr "SSL Really Simple هیچ پاسخی از صفحه وب دریافت نکرده است."
+
+#: class-admin.php:1998
+msgid "SSL is not enabled yet."
+msgstr "SSL هنوز فعال نشده است."
+
+#: class-admin.php:1875
+msgid "No recommended redirect rules detected."
+msgstr "هیچ قانون تغییر مسیر توصیه شده ای شناسایی نشد."
+
+#: settings/config/menu.php:24 settings/config/menu.php:29
+msgid "General"
+msgstr "عمومی"
+
+#: onboarding/class-onboarding.php:170
+msgid "Before you migrate, please check for:"
+msgstr "قبل از مهاجرت، لطفاً موارد زیر را بررسی کنید:"
+
+#: class-admin.php:2773 class-multisite.php:223
+#: settings/build/index.85c54ae03e93504a4ac9.js:1 settings/src/Header.js:36
+msgid "Support"
+msgstr "حمایت کردن"
+
+#: class-multisite.php:114
+msgid "SSL is enabled networkwide."
+msgstr "SSL در سراسر شبکه فعال است."
+
+#: class-site-health.php:196 settings/build/688.ea69dfea12bc73015951.js:1
+#: settings/build/885.b0c364cdc2feaab6b194.js:1
+#: settings/build/967.60c930b6e473f21beb92.js:1
+#: settings/src/Dashboard/Progress/ProgressFooter.js:24
+#: settings/src/Onboarding/Onboarding.js:209
+msgid "Activate SSL"
+msgstr "SSL را فعال کنید"
+
+#: progress/class-progress.php:96
+msgid "SSL is not yet enabled on this site."
+msgstr "SSL هنوز در این سایت فعال نشده است."
+
+#: progress/class-progress.php:90
+msgid "Basic SSL configuration finished! Improve your score with %sReally Simple SSL Pro%s."
+msgstr "پیکربندی اولیه SSL به پایان رسید! با %sSSL Pro%s واقعا ساده امتیاز خود را بهبود دهید."
+
+#: progress/class-progress.php:85
+msgid "SSL configuration finished!"
+msgstr "پیکربندی SSL به پایان رسید!"
+
+#: progress/class-progress.php:83
+msgid "You still have %s task open."
+msgid_plural "You still have %s tasks open."
+msgstr[0] "شما هنوز %s وظیفه باز دارید."
+
+#: progress/class-progress.php:83
+msgid "SSL is activated on your site."
+msgstr "SSL در سایت شما فعال می شود."
+
+#: settings/config/config.php:753 settings/build/688.ea69dfea12bc73015951.js:1
+#: settings/build/967.60c930b6e473f21beb92.js:1
+#: settings/src/Dashboard/SslLabs/SslLabs.js:319
+#: settings/src/LetsEncrypt/DnsVerification.js:91
+msgid "Read more"
+msgstr "ادامه مطلب"
+
+#. Author of the plugin
+msgid "Really Simple Plugins"
+msgstr "پلاگین های واقعا ساده"
+
+#: class-admin.php:1649
+msgid "Hi, Really Simple SSL has kept your site secure for some time now, awesome! If you have a moment, please consider leaving a review on WordPress.org to spread the word. We greatly appreciate it! If you have any questions or feedback, leave us a %smessage%s."
+msgstr "سلام، SSL واقعا ساده سایت شما را برای مدتی امن نگه داشته است، عالی! اگر لحظه ای دارید، لطفاً نظر خود را در WordPress.org بگذارید تا این خبر را منتشر کنید. ما بسیار از آن قدردانی می کنیم! اگر سؤال یا بازخوردی دارید، %sپیام%s را برای ما ارسال کنید."
+
+#: onboarding/class-onboarding.php:163
+msgid "Check out Really Simple SSL Pro"
+msgstr "واقعاً ساده SSL پرو را بررسی کنید"
+
+#: class-admin.php:1659
+msgid "Don't show again"
+msgstr "دیگر نشان نده"
+
+#: class-admin.php:2085
+msgid "The mixed content fixer could not be detected due to a cURL error: %s. cURL errors are often caused by an outdated version of PHP or cURL and don't affect the front-end of your site. Contact your hosting provider for a fix."
+msgstr "ثابت کننده محتوای مختلط به دلیل یک خطای cURL شناسایی نشد: %s. خطاهای cURL اغلب به دلیل نسخه قدیمی PHP یا cURL ایجاد می شوند و روی صفحه اصلی سایت شما تأثیر نمی گذارند. برای رفع مشکل با ارائه دهنده هاست خود تماس بگیرید."
+
+#: class-admin.php:2073
+msgid "Error occurred when retrieving the webpage."
+msgstr "هنگام بازیابی صفحه وب خطایی رخ داد."
+
+#: class-site-health.php:224
+msgid "The 301 .htaccess redirect is the fastest and most reliable redirect option."
+msgstr "ریدایرکت 301 .htaccess سریع ترین و مطمئن ترین گزینه تغییر مسیر است."
+
+#: class-site-health.php:221
+msgid "301 .htaccess redirect is not enabled."
+msgstr "تغییر مسیر 301 .htaccess فعال نیست."
+
+#: class-site-health.php:178
+msgid "You have set a 301 redirect to SSL. This is important for SEO purposes"
+msgstr "شما یک تغییر مسیر 301 به SSL تنظیم کرده اید. این برای اهداف سئو مهم است"
+
+#: class-site-health.php:170
+msgid "301 SSL redirect enabled"
+msgstr "تغییر مسیر SSL 301 فعال شد"
+
+#: class-admin.php:505 settings/build/885.b0c364cdc2feaab6b194.js:1
+#: settings/build/967.60c930b6e473f21beb92.js:1
+#: settings/src/Onboarding/Onboarding.js:244
+#: settings/src/Settings/RiskConfiguration/VulnerabilitiesIntro.js:89
+msgid "Dismiss"
+msgstr "رد"
+
+#: onboarding/class-onboarding.php:281
+#: settings/build/688.ea69dfea12bc73015951.js:1
+#: settings/src/Dashboard/Vulnerabilities/Vulnerabilities.js:116
+msgid "Enable"
+msgstr "فعال کردن"
+
+#: class-admin.php:1936
+msgid "The 'force-deactivate.php' file has to be renamed to .txt. Otherwise your ssl can be deactivated by anyone on the internet."
+msgstr "فایل 'force-deactivate.php' باید به txt. تغییر نام دهد. در غیر این صورت ssl شما می تواند توسط هر کسی در اینترنت غیرفعال شود."
+
+#: class-admin.php:1658
+msgid "Maybe later"
+msgstr "شاید بعدا"
+
+#: class-admin.php:1657
+msgid "Leave a review"
+msgstr "نظر بدهید"
+
+#: class-admin.php:1651
+msgid "Hi, Really Simple SSL has kept your site secure for a month now, awesome! If you have a moment, please consider leaving a review on WordPress.org to spread the word. We greatly appreciate it! If you have any questions or feedback, leave us a %smessage%s."
+msgstr "سلام، SSL واقعا ساده سایت شما را برای یک ماه امن نگه داشته است، عالی! اگر لحظه ای دارید، لطفاً نظر خود را در WordPress.org بگذارید تا این خبر را منتشر کنید. ما بسیار از آن قدردانی می کنیم! اگر سؤال یا بازخوردی دارید، %sپیام%s را برای ما ارسال کنید."
+
+#: class-multisite.php:163
+msgid "Activate SSL per site or install a wildcard certificate to fix this."
+msgstr "SSL را در هر سایت فعال کنید یا برای رفع این مشکل یک گواهی نامه wildcard نصب کنید."
+
+#: class-multisite.php:162
+msgid "This leads to issues when activating SSL networkwide since subdomains will be forced over SSL as well while they don't have a valid certificate."
+msgstr "این منجر به مشکلاتی در هنگام فعال‌سازی SSL در سراسر شبکه می‌شود، زیرا دامنه‌های فرعی نیز در حالی که گواهی معتبر ندارند، روی SSL اجباری می‌شوند."
+
+#: class-multisite.php:161
+msgid "You run a Multisite installation with subdomains, but your site doesn't have a wildcard certificate."
+msgstr "شما یک نصب چند سایتی را با زیر دامنه ها اجرا می کنید، اما سایت شما گواهی نامه عام ندارد."
+
+#: class-admin.php:2737 upgrade/upgrade-to-pro.php:370
+msgid "Cancel"
+msgstr "لغو کنید"
+
+#: class-admin.php:2728
+msgid "The .htaccess redirect will remain active"
+msgstr "تغییر مسیر .htaccess فعال باقی خواهد ماند"
+
+#: class-admin.php:2727
+msgid "Your site address will remain https://"
+msgstr "آدرس سایت شما https:// باقی خواهد ماند"
+
+#: class-admin.php:2725
+msgid "The mixed content fixer will stop working"
+msgstr "ثابت کننده محتوای مختلط کار نمی کند"
+
+#: class-admin.php:2723
+msgid "Deactivating the plugin while keeping SSL will do the following:"
+msgstr "غیرفعال کردن افزونه در حین حفظ SSL موارد زیر را انجام می دهد:"
+
+#: class-admin.php:2707
+msgid "Are you sure?"
+msgstr "مطمئنی؟"
+
+#: class-admin.php:508 settings/build/688.ea69dfea12bc73015951.js:1
+#: settings/build/772.ffad42a4aac072147b00.js:1
+#: settings/build/967.60c930b6e473f21beb92.js:1
+#: settings/src/Dashboard/TaskElement.js:49 settings/src/Settings/Help.js:23
+msgid "More info"
+msgstr "اطلاعات بیشتر"
+
+#: class-admin.php:131
+msgid "Really Simple SSL and Really Simple SSL add-ons do not process any personal identifiable information, so the GDPR does not apply to these plugins or usage of these plugins on your website. You can find our privacy policy <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr "افزونه های Really Simple SSL و Really Simple SSL هیچ اطلاعات قابل شناسایی شخصی را پردازش نمی کنند، بنابراین GDPR برای این افزونه ها یا استفاده از این افزونه ها در وب سایت شما اعمال نمی شود. می‌توانید خط‌مشی رازداری ما را <a href=\"%s\" target=\"_blank\">اینجا</a> پیدا کنید."
+
+#. Author URI of the plugin
+msgid "https://really-simple-plugins.com"
+msgstr "https://really-simple-plugins.com"
+
+#: mailer/class-mail.php:28 mailer/class-mail.php:113
+#: settings/build/688.ea69dfea12bc73015951.js:1
+#: settings/src/Dashboard/Vulnerabilities/Vulnerabilities.js:192
+msgid "Learn more"
+msgstr "بیشتر بدانید"
+
+#: settings/config/config.php:86
+msgid "If this option is set to true, the mixed content fixer will fire on the init hook instead of the template_redirect hook. Only use this option when you experience problems with the mixed content fixer."
+msgstr "اگر این گزینه روی true تنظیم شود، ثابت کننده محتوای مختلط به جای قلاب template_redirect روی قلاب init شلیک می کند. فقط زمانی از این گزینه استفاده کنید که با رفع کننده محتوای مختلط مشکل دارید.\""
+
+#: onboarding/class-onboarding.php:163
+msgid "You can also let the automatic scan of the pro version handle this for you, and get premium support, increased security with HSTS and more!"
+msgstr "همچنین می‌توانید اجازه دهید اسکن خودکار نسخه حرفه‌ای این کار را برای شما انجام دهد و از پشتیبانی ممتاز، افزایش امنیت با HSTS و موارد دیگر بهره مند شوید!"
+
+#: onboarding/class-onboarding.php:218
+msgid "You may need to login in again."
+msgstr "ممکن است لازم باشد دوباره وارد شوید."
+
+#: class-site-health.php:229
+msgid "Enable 301 .htaccess redirect"
+msgstr "تغییر مسیر htaccess 301 را فعال کنید"
+
+#: class-admin.php:2102
+msgid "No 301 redirect is set. Enable the WordPress 301 redirect in the settings to get a 301 permanent redirect."
+msgstr "تغییر مسیر 301 تنظیم نشده است. تغییر مسیر وردپرس 301 را در تنظیمات فعال کنید تا یک تغییر مسیر دائمی 301 دریافت کنید."
+
+#: class-admin.php:2131
+msgid "Enable a .htaccess redirect or PHP redirect in the settings to create a 301 redirect."
+msgstr "برای ایجاد ریدایرکت 301، ریدایرکت .htaccess یا تغییر مسیر وردپرس را در تنظیمات فعال کنید."
+
+#: class-admin.php:2136
+msgid ".htaccess redirect."
+msgstr "تغییر مسیر htaccess 301 را فعال کنید"
+
+#: class-admin.php:2098
+msgid "301 redirect to https set."
+msgstr "تغییر مسیر 301 به مجموعه https."
+
+#: class-multisite.php:147
+msgid "View settings page"
+msgstr "تنظیمات را ذخیره کن"
+
+#: settings/config/menu.php:34
+msgid "Premium Support"
+msgstr "پشتیبانی پریمیوم"
+
+#: lets-encrypt/functions.php:369 lets-encrypt/functions.php:370
+#: settings/build/772.ffad42a4aac072147b00.js:1
+#: settings/src/Settings/SettingsGroup.js:89
+msgid "Instructions"
+msgstr "دستورالعمل ها"
+
+#: class-admin.php:1994
+msgid "SSL is enabled on your site."
+msgstr "SSL در سایت شما فعال است."
+
+#: class-admin.php:1899
+msgid "Your wp-config.php has to be edited, but is not writable."
+msgstr "wp-config.php شما باید ویرایش شود، اما قابل نوشتن نیست."
+
+#: class-admin.php:1900 class-admin.php:1921
+msgid "Set your wp-config.php to writable and reload this page."
+msgstr "wp-config.php خود را روی قابل نوشتن تنظیم کنید و این صفحه را دوباره بارگیری کنید."
+
+#: class-admin.php:1921
+msgid "A definition of a site url or home url was detected in your wp-config.php, but the file is not writable."
+msgstr "تعریفی از siteurl یا homeurl در wp-config.php شما شناسایی شد، اما فایل قابل نوشتن نیست."
+
+#: onboarding/class-onboarding.php:214
+msgid "Images, stylesheets or scripts from a domain without an SSL certificate: remove them or move to your own server."
+msgstr "تصاویر، شیوه نامه ها یا اسکریپت ها از یک دامنه بدون گواهی SSL: آنها را حذف کنید یا به سرور خود منتقل کنید."
+
+#: onboarding/class-onboarding.php:210
+msgid "Http references in your .css and .js files: change any http:// into https://"
+msgstr "ارجاعات Http در فایل های css. و .js شما: هر http:// را به https:// تغییر دهید"
+
+#: onboarding/class-onboarding.php:169
+msgid "Almost ready to migrate to SSL!"
+msgstr "تقریباً آماده مهاجرت به SSL!"
+
+#: class-admin.php:20 class-cache.php:10 class-certificate.php:10
+#: class-site-health.php:8 lets-encrypt/class-letsencrypt-handler.php:30
+#: onboarding/class-onboarding.php:9 security/firewall-manager.php:8
+#: security/hardening.php:9
+msgid "%s is a singleton class and you cannot create a second instance."
+msgstr "%s یک کلاس singleton است و شما نمی توانید نمونه دوم ایجاد کنید."
+
+#: class-admin.php:2056
+msgid "Mixed content fixer was successfully detected on the front-end."
+msgstr "ثابت کننده محتوای ترکیبی با موفقیت در قسمت جلویی شناسایی شد."
+
+#. Plugin URI of the plugin
+msgid "https://really-simple-ssl.com"
+msgstr "https://really-simple-ssl.com"
+
+#. Plugin Name of the plugin
+msgid "Really Simple SSL"
+msgstr "SSL واقعا ساده"
+
+#: settings/config/config.php:187
+msgid "Stop editing the .htaccess file"
+msgstr "ویرایش فایل htaccess. را متوقف کنید"
+
+#: class-admin.php:2035
+msgid "An SSL certificate was detected on your site."
+msgstr "یک گواهی SSL در سایت شما شناسایی شد."
+
+#: class-site-health.php:200
+msgid "No SSL detected."
+msgstr "هیچ SSL شناسایی نشد."
+
+#: class-admin.php:1771 class-admin.php:2765 class-admin.php:2768
+#: class-multisite.php:87 class-multisite.php:220 settings/config/menu.php:18
+#: settings/build/688.ea69dfea12bc73015951.js:1
+#: settings/src/Dashboard/Vulnerabilities/Vulnerabilities.js:237
+#: settings/src/Dashboard/Vulnerabilities/VulnerabilitiesFooter.js:24
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: settings/config/config.php:72
+msgid "Mixed content fixer"
+msgstr "ثابت کننده محتوای مختلط"
+
+#: settings/settings.php:163
+msgid "SSL"
+msgstr "SSL"
+
+#: settings/settings.php:162
+msgid "SSL settings"
+msgstr "تنظیمات SSL"
+
+#: class-multisite.php:133
+msgid "Activate networkwide to fix this."
+msgstr "برای رفع این مشکل در سراسر شبکه فعال کنید."
+
+#: class-multisite.php:132
+msgid "Because the $_SERVER[\"HTTPS\"] variable is not set, your website may experience redirect loops."
+msgstr "از آنجایی که متغیر $_SERVER[\"HTTPS\"] تنظیم نشده است، وب سایت شما ممکن است حلقه های تغییر مسیر را تجربه کند."
+
+#: class-multisite.php:131
+msgid "You run a Multisite installation with subfolders, which prevents this plugin from fixing your missing server variable in the wp-config.php."
+msgstr "شما یک نصب Multisite را با پوشه‌های فرعی اجرا می‌کنید، که مانع از اصلاح متغیر سرور گمشده شما در wp-config.php توسط این افزونه می‌شود."
+
+#: class-admin.php:1937
+msgid "Check again"
+msgstr "دوباره بررسی کن"
